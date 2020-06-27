@@ -1,0 +1,34 @@
+/* Global*/
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: #ffffff;
+  width: 100%;
+}
+
+h3 {
+  font-family: Ubuntu;
+}
+.menu-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+p {
+  font-family: Didact Gothic;
+  font-style;
+  normal;
+  font-weight;
+  normal;
+  font-size: 24px;
+  line-height: 167.23% text-align: center;
+  color: #291720;
+}
