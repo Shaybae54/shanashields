@@ -1,5 +1,80 @@
 /* Global*/
-
 * {
   box-sizing: border-box;
+}
+
+html, body {
+  font-family: "Didact Gothic";
+  Font-size: 10px;
+  height: 100%;
+  margin: 0;
+  width: 100%
+  scroll-behavior:smooth;
+}
+
+@font-face {
+    font-family: 'autographyregular';
+    src: url('../fonts/autography-webfont.woff2') format('woff2'),
+         url('../fonts/autography-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+img {
+  width:100%
+}
+
+.container {
+  margin: 0 auto;
+  min-height: 100;
+  width: 100%;
+  display: flex;
+}
+
+/*header*/
+
+.header-container {
+  display: flex;
+}
+
+.logo {
+  height: 77px;
+  width: 97px;
+  padding-top: 25px;
+}
+
+li {
+  float: right;
+  padding-right:39px;
+}
+
+.navbar {
+  font-family: Ubuntu;
+  letter-spacing: -0.0141176em;
+  font-size: 2.4em;
+  font-weight: bold;
+  line-height: 22px;
+  flex: 1 1 auto;
+  padding-top: 50px;
+
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.navbar a{
+  color: #820263;
+}
+
+/*hero*/
+
+h1{
+  font-size: 6.4em;
+
+}
+
+.name h1{
+  font-family: 'autographyregular';
 }

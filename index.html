@@ -7,8 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!--Stylesheet and reset css -->
+
+
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
+
 
   <!--Font Awesome-->
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -20,15 +23,16 @@
 </head>
 
 <body>
+  <div id="container">
   <!--Header-->
   <header class="header-container">
-    <nav class="navbar">
+    <a href="index.html"><img src="images/lotus_logo.svg" alt="lotus-logo" class="logo" /></a>
+  <nav class="navbar">
       <ul>
         <li><a href="about.html">About</a></li>
         <li><a href="project.html">Work</a></li>
         <li><a href="resume.pdf">Resume</a></li>
         <li><a href="contact.html">Contact</a></li>
-          <a href="index.html"><img src="images/lotus_logo.svg" alt="lotus logo" class="logo" /></a>
       </ul>
     </nav>
   </header>
@@ -37,15 +41,18 @@
     <!--Hero Section-->
     <section id="hero-unit" class="sections">
       <h1>Hi, I'm</h1>
+      <div id="name">
+        <h1>Shana</h1>
+      </div>
       <p>I'm a product designer based in Pittsburgh who's passionate about empowering people through design.</p>
-      <img src="images/hero_image.svg" alt="profile image" class="profile" />
+      <img src="images/hero_image.png" alt="profile image" class="profile" />
       <img src="images/color_diamond.svg" alt="color diamond" class="diamond" />
     </section>
 
 
     <!--Case Study Section-->
     <section id="recentcaseL" class="sections">
-      <img src="images/sprinkle_home.svg" alt="sprinkle image" class="sprinkle" />
+      <img src="images/sprinkle_home.png" alt="sprinkle image" class="sprinkle" />
       <h3>Sprinkle</h3>
       <p>Sprinkle is a cloud based software made for home baking businesses. It's easy to use, mobile friendly, and even allows you to upload and store documents to access them anytime. It was made with home bakers in mind.</p>
       <a href="project.html"><img src="images/project_button.svg" alt="project button" class="button" /></a>
@@ -64,6 +71,7 @@
       <a href="https://instagram.com/hot_buttered_spoons" class="fa fa-instagram fa-2x"></a>
     </div>
   </footer>
+</div>
 </body>
 
 </html>
