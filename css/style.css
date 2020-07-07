@@ -254,7 +254,7 @@ footer p {
 .aboutme .name  {
   left: 633px;
   position: absolute;
-  
+
 }
 
 #profile_details {
@@ -326,5 +326,248 @@ font-weight: 500;
 font-size: 24px;
 line-height: 167.23%;
 text-align: center;
+}
 
+/*project page*/
+
+
+.tab {
+position: absolute;
+width: 236px;
+height: 65px;
+}
+
+#casedetails {
+position: relative;
+width: 883px;
+height: 482px;
+left: 137px;
+}
+
+.mobile-prototype {
+position: relative;
+width: 672px;
+height: 414.52px;
+left: 41px;
+top: 183px;
+}
+
+
+.sections p {
+  text-align: center;
+  width:894px;
+  font-size:18px;
+}
+
+#case-header {
+width: 100%;
+height: 759px;
+left: 0px;
+background: linear-gradient(180deg, #860263 0%, rgba(217, 3, 104, 0.81) 100%);
+}
+
+#case-header .button {
+position: absolute;
+width: 170px;
+height: 50px;
+left: 730px;
+top: 483px;
+}
+
+#case-header h2 {
+  position: absolute;
+width: 186px;
+height: 22px;
+left: 725px;
+top: 229px;
+color: #ffffff;
+font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 22px;
+}
+
+#case-header p {
+  position: absolute;
+width: 419px;
+height: 94px;
+left: 600px;
+top: 317px;
+color: #ffffff;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 167.23%;
+text-align: center;
+}
+
+/*solution section*/
+
+#solution .sprinkle_pic {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 993px;
+height: 375px;
+}
+
+/*survey section*/
+
+#survey .facts {
+columns: 3
+left: 432px;
+top: 2735px;
+}
+
+/*competitive analysis*/
+
+#competitive .cakeboss {
+width: 326px;
+height: 112px;
+left: 54px;
+float: left;
+}
+
+#competitive .bakediary {
+  width: 324px;
+height: 130px;
+left: 430px;
+}
+
+#competitive .google_drive {
+width: 311px;
+height: 389px;
+float:right;
+}
+
+/*user personas*/
+
+#personas .personas {
+display: block;
+width: 520.13px;
+height: 278px;
+}
+
+/* User stories*/
+
+#stories .user_stories {
+  width: 520.13px;
+height: 278px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+#flows .user_flow {
+  width: 794px;
+height: 508px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+#flows .sitemap {
+  width: 498px;
+height: 451px;
+}
+
+/*Wireframes*/
+
+#wire .sketches  {
+  width: 318px;
+height: 299px;
+}
+
+#wire .wireframe {
+  width: 519px;
+height: 369px;
+}
+
+/*Usability Test 1*/
+
+#usability1 .sprinkle_img {
+  width: 647px;
+height: 579px;
+}
+
+#usability1 .payment {
+  width: 466px;
+  height: 415px;
+}
+
+/*Branding*/
+
+#branding .logo {
+  width: 550.08px;
+height: 283.01px;
+}
+
+#branding .style {
+  width: 677px;
+height: 930px;
+}
+
+/*Preference Testing*/
+
+#preference .testpic {
+  width: 386px;
+height: 328px;
+}
+
+/*Hi Fi Mockup*/
+
+#hifi .mockup {
+  width: 697px;
+height: 445px;
+}
+
+/*Usability Round 2*/
+
+#testing2 .sprinkle_img2 {
+  width: 697px;
+  height: 445px;
+align-items: center;
+}
+
+testing2 p {
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 40px;
+
+}
+
+/*Reflections*/
+ #reflect h3 {
+   text-align: center;
+   font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+ }
+
+ #reflect p {
+
+   font-size: 16px;
+   text-align: center;
+   line-height: 40px;
+   width: 894px;
+margin:0 auto;
+ }
+
+#key h3{
+font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+text-align: center;
+}
+
+main p {
+  width: 894px;
+  text-align: center;
+  margin:0 auto;
+  font-size: 18px;
 }
