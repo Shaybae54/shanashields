@@ -440,6 +440,24 @@ footer p {
   font-size: 18px;
 }
 
+/*problem*/
+#problem {
+  display: flex;
+  height: 344px;
+  flex-direction: column;
+}
+
+#problem .tab {
+  top: 1259px;
+}
+
+#problem p {
+  width: 894px;
+  line-height: 167.23%;
+  align-items: center;
+  text-align: left;
+}
+
 /*solution section*/
 #solution {
   display: flex;
@@ -626,12 +644,11 @@ footer p {
 }
 
 /*Usability Test 1*/
-
 #usability1 {
   display: flex;
   flex-direction: column;
-
 }
+
 #usability1 .sprinkle_img {
   margin-top: 100px;
   width: 647px;
@@ -644,27 +661,27 @@ footer p {
   height: 415px;
 }
 
-#usability1 p{
+#usability1 p {
   line-height: 40px;
   margin-bottom: 25px;
 }
 
 #usability1 .button {
   width: 170px;
-height: 50px;
-margin-left:500px;
+  height: 50px;
+  margin-left: 500px;
 }
 
 /*Branding*/
-
 #branding {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   align-items: center;
 }
+
 #branding .logo {
-  margin-top:125px;
+  margin-top: 125px;
   width: 550.08px;
   height: 283.01px;
   align-self: center;
@@ -678,12 +695,11 @@ margin-left:500px;
 
 #branding p {
   line-height: 40px;
-  margin:20px;
-text-align: left;
+  margin: 20px;
+  text-align: left;
 }
 
 /*Preference Testing*/
-
 #preference .tab {
   width: 404px;
   height: 65px;
@@ -694,13 +710,13 @@ text-align: left;
   flex-direction: row;
   flex-wrap: nowrap;
 }
+
 #preference .testpic {
   width: 386px;
   height: 328px;
 }
 
 /*Hi Fi Mockup*/
-
 #hifi {
   display: flex;
   flex-direction: column;
@@ -709,22 +725,21 @@ text-align: left;
 }
 
 #hifi p {
-line-height: 40px;
-margin-top: 10px;
+  line-height: 40px;
+  margin-top: 10px;
 }
 
 #hifi .mockup {
   width: 697px;
   height: 445px;
-  margin-top:150px;
+  margin-top: 150px;
   align-self: center;
 }
 
 /*Usability Round 2*/
-
 #testing2 .tab {
   width: 463px;
-height: 65px;
+  height: 65px;
 }
 
 #testing2 {
@@ -735,16 +750,15 @@ height: 65px;
 
 #testing2 .button {
   width: 170px;
-height: 50px;
-margin-top:20px;
-
+  height: 50px;
+  margin-top: 20px;
 }
+
 #testing2 .sprinkle_img2 {
   width: 697px;
   height: 445px;
   align-self: center;
   margin-top: 125px;
-
 }
 
 #testing2 p {
@@ -801,23 +815,7 @@ margin-top:20px;
   font-size: 18px;
 }
 
-/*problem*/
-#problem {
-  display: flex;
-  height: 344px;
-  flex-direction: column;
-}
 
-#problem .tab {
-  top: 1259px;
-}
-
-#problem p {
-  width: 894px;
-  line-height: 167.23%;
-  align-items: center;
-  text-align: left;
-}
 
 #survey .tab {
   top: 2353px;
