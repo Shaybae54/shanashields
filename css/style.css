@@ -178,7 +178,7 @@ h1 {
   padding-top: 45px;
 }
 
-.button {
+#recentcaseL .button {
   position: relative;
   width: 170px;
   height: 50px;
@@ -230,7 +230,6 @@ footer p {
 }
 
 /*about me page*/
-
 #aboutme {
   display: flex;
 }
@@ -248,18 +247,16 @@ footer p {
 .hey1 h1 {
   position: static;
   margin-top: 68px;
-
 }
 
-.aboutme .name  {
+.aboutme .name {
   left: 633px;
   position: absolute;
-
 }
 
 #profile_details {
   position: relative;
-  padding-top:250px;
+  padding-top: 250px;
 }
 
 #profile_details h2 {
@@ -270,7 +267,6 @@ footer p {
   line-height: 167.23%;
   text-align: center;
   margin-bottom: 25px;
-
 }
 
 #profile_details {
@@ -300,196 +296,347 @@ footer p {
 }
 
 .profile_details h2 {
-text-align: center;
+  text-align: center;
 }
 
 .creations h3 {
-font-family: Ubuntu;
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 167.23%;
-text-align: center;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 167.23%;
+  text-align: center;
 }
 
 .creations p {
   font-size: 18px;
-line-height: 167.23%;
-text-align: center;
-margin: 50px 50px 50px 50px;
+  line-height: 167.23%;
+  text-align: center;
+  margin: 50px 50px 50px 50px;
 }
 
 .thai h3 {
   font-family: Ubuntu;
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 167.23%;
-text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 167.23%;
+  text-align: center;
 }
 
 /*project page*/
-
-
 .tab {
-position: absolute;
-width: 236px;
-height: 65px;
+  position: absolute;
+  width: 236px;
+  height: 65px;
+  margin-bottom: 150px;
 }
 
 #casedetails {
-position: relative;
-width: 883px;
-height: 482px;
-left: 137px;
+  position: relative;
+  width: 883px;
+  height: 482px;
+  left: 137px;
 }
 
 .mobile-prototype {
-position: relative;
-width: 672px;
-height: 414.52px;
-left: 41px;
-top: 183px;
-}
-
-
-.sections p {
-  text-align: center;
-  width:894px;
-  font-size:18px;
+  position: relative;
+  width: 672px;
+  height: 414.52px;
+  left: 41px;
+  top: 183px;
 }
 
 #case-header {
-width: 100%;
-height: 759px;
-left: 0px;
-background: linear-gradient(180deg, #860263 0%, rgba(217, 3, 104, 0.81) 100%);
+  width: 100%;
+  height: 759px;
+  left: 0px;
+  background: linear-gradient(180deg, #860263 0%, rgba(217, 3, 104, 0.81) 100%);
 }
 
 #case-header .button {
-position: absolute;
-width: 170px;
-height: 50px;
-left: 730px;
-top: 483px;
+  position: absolute;
+  width: 170px;
+  height: 50px;
+  left: 730px;
+  top: 483px;
 }
 
 #case-header h2 {
   position: absolute;
-width: 186px;
-height: 22px;
-left: 725px;
-top: 229px;
-color: #ffffff;
-font-family: Ubuntu;
-font-style: normal;
-font-weight: bold;
-font-size: 48px;
-line-height: 22px;
+  width: 186px;
+  height: 22px;
+  left: 725px;
+  top: 229px;
+  color: #ffffff;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 22px;
 }
 
 #case-header p {
   position: absolute;
-width: 419px;
-height: 94px;
-left: 600px;
-top: 317px;
-color: #ffffff;
-font-family: Montserrat;
-font-style: normal;
-font-weight: 500;
-font-size: 28px;
-line-height: 167.23%;
-text-align: center;
+  width: 419px;
+  height: 94px;
+  left: 600px;
+  top: 317px;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 167.23%;
+  text-align: center;
+}
+
+/*My Roles*/
+#casedetails {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+
+#casedetails .myrole h2 {
+  font-family: Ubuntu;
+  font-size: 2.4em;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+#casedetails .myrole h6 {
+  font-size: 18px;
+  line-height: 167.23%;
+}
+
+#casedetails .deliverables h2 {
+  font-family: Ubuntu;
+  font-size: 2.4em;
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#casedetails .deliverables h6 {
+  text-align: center;
+  line-height: 167.23%;
+  font-size: 18px;
+}
+
+#casedetails .tools h2 {
+  font-family: Ubuntu;
+  font-size: 2.4em;
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#casedetails .tools h6 {
+  text-align: center;
+  line-height: 167.23%;
+  font-size: 18px;
 }
 
 /*solution section*/
+#solution {
+  display: flex;
+  flex-direction: column;
+  height: 750px;
+}
 
 #solution .sprinkle_pic {
-display: block;
-margin-left: auto;
-margin-right: auto;
-width: 993px;
-height: 375px;
+  align-self: center;
+  width: 993px;
+  height: 375px;
+}
+
+#solution .tab {
+  top: 1568px;
+}
+
+#solution p {
+  margin-top: 25px;
+  line-height: 40px;
+  text-align: left;
 }
 
 /*survey section*/
+#survey {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
 
 #survey .facts {
-columns: 3
-left: 432px;
-top: 2735px;
+  columns: 3 left: 432px;
+}
+
+#survey .challenges h3 {
+  font-size: 24px;
+  font-family: Ubuntu;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+#survey .challenges h6 {
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#survey .button {
+  margin-top: 30px;
+  width: 250px;
+  height: 50px;
 }
 
 /*competitive analysis*/
+#competitive {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: 823px;
+}
+
+#competitive p {
+  text-align: left;
+  line-height: 40px;
+}
+
+#competitive .tab {
+  width: 455px;
+  height: 65px;
+  margin-top: 75px;
+}
 
 #competitive .cakeboss {
-width: 326px;
-height: 112px;
-left: 54px;
-float: left;
+  width: 326px;
+  height: 112px;
+}
+
+#competitive .cakebosssect p {
+  width: 326px;
 }
 
 #competitive .bakediary {
   width: 324px;
-height: 130px;
-left: 430px;
+  height: 130px;
+}
+
+#competitive .bakediarysect p {
+  width: 324px;
 }
 
 #competitive .google_drive {
-width: 311px;
-height: 389px;
-float:right;
+  width: 311px;
+  height: 389px;
+}
+
+#competitive .googlesect p {
+  width: 311px;
 }
 
 /*user personas*/
+#personas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+#personas .tab {
+  margin-bottom: 50px;
+}
 
 #personas .personas {
-display: block;
-width: 520.13px;
-height: 278px;
+  width: 520.13px;
+  height: 278px;
+  flex-basis: auto;
+}
+
+#personas p {
+  text-align: left;
+  line-height: 40px;
 }
 
 /* User stories*/
+#stories {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: 551px;
+}
 
 #stories .user_stories {
   width: 520.13px;
-height: 278px;
-margin-left: auto;
-margin-right: auto;
-display: block;
+  height: 278px;
+  align-self: center;
+}
+
+#stories p {
+  margin-top: 125px;
+  line-height: 40px;
+  text-align: left;
+}
+
+/*user flows*/
+#flows {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: 1450px;
 }
 
 #flows .user_flow {
   width: 794px;
-height: 508px;
-display: block;
-margin-left: auto;
-margin-right: auto;
+  height: 508px;
+  align-self: center;
+  margin-top: 125px;
+  margin-bottom: 25px;
+}
+
+#flows p {
+  line-height: 40px;
+  margin-bottom: 50px;
+  text-align: left;
 }
 
 #flows .sitemap {
   width: 498px;
-height: 451px;
+  height: 451px;
+  align-self: center;
 }
 
 /*Wireframes*/
+#wire {}
 
-#wire .sketches  {
-  width: 318px;
-height: 299px;
+#wire .sketches {
+  display: flex;
+  width: 218px;
+  height: 199px;
 }
 
 #wire .wireframe {
   width: 519px;
-height: 369px;
+  height: 369px;
 }
 
 /*Usability Test 1*/
 
+#usability1 {
+  display: flex;
+  flex-direction: column;
+
+}
 #usability1 .sprinkle_img {
+  margin-top: 100px;
   width: 647px;
-height: 579px;
+  height: 579px;
+  align-self: center;
 }
 
 #usability1 .payment {
@@ -497,77 +644,181 @@ height: 579px;
   height: 415px;
 }
 
+#usability1 p{
+  line-height: 40px;
+  margin-bottom: 25px;
+}
+
+#usability1 .button {
+  width: 170px;
+height: 50px;
+margin-left:500px;
+}
+
 /*Branding*/
 
+#branding {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
 #branding .logo {
+  margin-top:125px;
   width: 550.08px;
-height: 283.01px;
+  height: 283.01px;
+  align-self: center;
 }
 
 #branding .style {
   width: 677px;
-height: 930px;
+  height: 930px;
+  justify-content: center;
+}
+
+#branding p {
+  line-height: 40px;
+  margin:20px;
+text-align: left;
 }
 
 /*Preference Testing*/
 
+#preference .tab {
+  width: 404px;
+  height: 65px;
+}
+
+#preference {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
 #preference .testpic {
   width: 386px;
-height: 328px;
+  height: 328px;
 }
 
 /*Hi Fi Mockup*/
 
+#hifi {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: 750px;
+}
+
+#hifi p {
+line-height: 40px;
+margin-top: 10px;
+}
+
 #hifi .mockup {
   width: 697px;
-height: 445px;
+  height: 445px;
+  margin-top:150px;
+  align-self: center;
 }
 
 /*Usability Round 2*/
 
+#testing2 .tab {
+  width: 463px;
+height: 65px;
+}
+
+#testing2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+#testing2 .button {
+  width: 170px;
+height: 50px;
+margin-top:20px;
+
+}
 #testing2 .sprinkle_img2 {
   width: 697px;
   height: 445px;
-align-items: center;
+  align-self: center;
+  margin-top: 125px;
+
 }
 
-testing2 p {
+#testing2 p {
   text-align: center;
   font-size: 18px;
   font-style: normal;
   line-height: 40px;
-
 }
 
 /*Reflections*/
- #reflect h3 {
-   text-align: center;
-   font-family: Montserrat;
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
- }
-
- #reflect p {
-
-   font-size: 16px;
-   text-align: center;
-   line-height: 40px;
-   width: 894px;
-margin:0 auto;
- }
-
-#key h3{
-font-family: Ubuntu;
-font-style: normal;
-font-weight: normal;
-font-size: 36px;
-text-align: center;
+#reflect {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: 750px;
 }
 
-main p {
+.reflections {
+  margin-top: 100px;
+}
+
+#reflect h3 {
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  padding-top: 50px;
+  margin-bottom: 10px;
+}
+
+#reflect p {
+  font-size: 18px;
+  text-align: left;
+  line-height: 40px;
+  width: 894px;
+  margin: 0 auto;
+}
+
+/*key takeaway*/
+#key h3 {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  text-align: center;
+  padding-top: 125px;
+}
+
+.work p {
   width: 894px;
   text-align: center;
-  margin:0 auto;
+  margin: 0 auto;
   font-size: 18px;
+}
+
+/*problem*/
+#problem {
+  display: flex;
+  height: 344px;
+  flex-direction: column;
+}
+
+#problem .tab {
+  top: 1259px;
+}
+
+#problem p {
+  width: 894px;
+  line-height: 167.23%;
+  align-items: center;
+  text-align: left;
+}
+
+#survey .tab {
+  top: 2353px;
 }
