@@ -1,16 +1,19 @@
-/* Global items*/
+/* Global*/
+
 * {
   box-sizing: border-box;
 }
 
-html, body {
-  font-family: "Didact Gothic";
-  Font-size: 10px;
-  height: 100%;
-  margin: 0;
-  width: 100%;
-  position: relative;
+html {
+  font-size: 10px;
 }
+
+body {
+  background-color: #ffffff;
+  width: 100%
+}
+
+/*Fonts*/
 
 @font-face {
   font-family: 'autographyregular';
@@ -20,174 +23,139 @@ html, body {
   font-style: normal;
 }
 
-img {
-  width: 100%
+h1 {
+  font-family: Ubuntu;
+  font-weight: normal;
+  line-height: 22px;
+  font-size: 6.4em;
 }
 
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  width: 100%;
-  display: flex;
+
+h2  {
+  font-family: Ubuntu;
+  font-weight: bold;
+  line-height: 22px;
+  font-size: 4.8em;
 }
 
-/*header*/
-.header-container {
-  display: flex;
+h3 {
+    font-family: Ubuntu;
+    font-weight: bold;
+    line-height: 22px;
+    font-size: 3.6em;
 }
+
+h4 {
+    font-family: Ubuntu;
+    line-height: 22px;
+    font-size: 2.4em;
+}
+
+p {
+  font-family: Didact Gothic;
+}
+
+/*buttons*/
+
+button {
+
+width: 170px;
+height: 50px;
+border-radius: 30px;
+background: #D90368;
+border-style: none;
+}
+
+.pink_button {
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+color: #FFFFFF;
+
+}
+
+.pink_button:hover {
+  color: #D90368;
+}
+
+button:hover {
+  width: 170px;
+  height: 50px;
+  border-radius: 30px;
+  background: #FFFFFF;
+  border-color: #D90368;
+  border-style: solid;
+}
+
+/*Navigation Bar*/
 
 .logo {
-  height: 60px;
-  width: 80px;
-  position: relative;
-  left: 60px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  width: 66.69px;
+  height: 47.15px;
+  margin: 15px;
 }
 
-li {
-  float: right;
-  padding-right: 39px;
+.header-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.header-container ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+
+}
+
+.navbar li {
+  margin-right: 25px;
 }
 
 .navbar {
-  font-family: Ubuntu;
-  letter-spacing: -0.0141176em;
-  font-size: 2.4em;
-  font-weight: bold;
-  line-height: 22px;
-  flex: 1 1 auto;
+  margin-inline-start: auto;
+  padding-right: 20px;
   padding-top: 20px;
-  padding-bottom: 20px;
 }
 
-a:link {
-  text-decoration: none;
+.navbar {
+font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 22px;
+display: flex;
+flex-direction: column;
+text-align: center;
+letter-spacing: -0.0141176em;
 }
 
 .navbar a {
   color: #820263;
+  text-decoration: none;
 }
 
-/*hero*/
-#hero-unit {
-  width: 100%;
-  height: 550px;
-  left: 0px;
-  background-color: #F7F7F7;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
-}
-
-h1 {
-  font-size: 6.4em;
-  position: absolute;
-  height: 22px;
-  left: 136px;
-  top: 229px;
-  align-items: center;
-  text-align: center;
-  letter-spacing: -0.0141176em;
-}
-
-.name h1 {
-  font-family: 'autographyregular';
+.navbar a:hover {
   color: #FE7F2D;
-  position: absolute;
-  width: 155px;
-  height: 22px;
-  left: 326px;
-  top: 235px;
 }
 
-.profile {
-  position: absolute;
-  width: 438px;
-  height: 410px;
-  left: 545px;
-  top: 132px;
-  z-index: 1;
+/*Hamburger Menu*/
+
+@media screen and (max-width: 768px) {
+
+
+
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 }
 
-.diamond {
-  position: absolute;
-  width: 438px;
-  height: 410px;
-  left: 619px;
-  top: 132px;
-}
-
-.whoami {
-  position: relative;
-  width: 434px;
-  height: 105px;
-  left: 90px;
-  top: 250px;
-  font-family: Didact Gothic;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 35px;
-  text-align: center;
-}
-
-/*case study*/
-#recentcaseL {
-  margin-top: 100px;
-  width: 100%;
-  height: 450px;
-  left: 0px;
-  top: 753px;
-  background-color: #FE7F2D;
-}
-
-#recentcaseL h3 {
-  color: #FFFFFF;
-  width: 140px;
-  height: 22px;
-  top: 853px;
-  font-family: Ubuntu;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 22px;
-  letter-spacing: -0.0141176em;
-  padding-top: 50px;
-  padding-left: 353px;
-}
-
-#recentcaseL p {
-  width: 528px;
-  height: 240px;
-  font-family: Didact Gothic;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 167.23%;
-  text-align: center;
-  left: 159px;
-  position: absolute;
-  color: #FFFFFF;
-  padding-top: 50px;
-}
-
-.sprinkle {
-  width: 194px;
-  height: 393px;
-  position: absolute;
-  right: 143px;
-  padding-top: 45px;
-}
-
-#recentcaseL .button {
-  position: relative;
-  width: 170px;
-  height: 50px;
-  left: 340px;
-  border-radius: 30px;
-  top: 300px;
-}
-
-/*Footer*/
+/*footer*/
 footer {
   position: relative;
   width: 100%;
@@ -200,6 +168,7 @@ footer {
 
 .footer-links a {
   color: #FFFFFF;
+  text-decoration: none;
 }
 
 .footer-links {
@@ -229,594 +198,172 @@ footer p {
   line-height: 167.23%;
 }
 
-/*about me page*/
-#aboutme {
-  display: flex;
+/*Hero Unit*/
+
+#hero-unit {
+  margin-top: 25px;
+  width: 100%;
+  height: 550px;
+  left: 0px;
+  background-color: #F7F7F7;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
 }
 
-#selfportrait {
-  width: 419px;
-  height: 771px;
-  margin-top: 200px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-.hey1 h1 {
-  position: static;
-  margin-top: 68px;
-}
-
-.aboutme .name {
-  left: 633px;
+#hero-unit h1 {
+  font-size: 6.4em;
   position: absolute;
+  height: 22px;
+  left: 136px;
+  top: 229px;
+  ;
+  letter-spacing: -0.0141176em;
 }
 
-#profile_details {
+.name h1 {
+  font-family: 'autographyregular';
+  color: #FE7F2D;
+  position: absolute;
+  width: 155px;
+  height: 22px;
+  left: 326px;
+  top: 235px;
+}
+
+.profile {
+  visibility: collapse;
+}
+
+.diamond {
+  visibility: collapse;
+}
+
+
+.whoami {
   position: relative;
-  padding-top: 250px;
-}
-
-#profile_details h2 {
-  font-family: Ubuntu;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 36px;
-  line-height: 167.23%;
-  text-align: center;
-  margin-bottom: 25px;
-}
-
-#profile_details {
+  width: 434px;
+  height: 105px;
+  left: 90px;
+  top: 250px;
+  font-family: Didact Gothic;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 167.23%;
-  margin: 50px 50px 0px 50px;
-}
-
-.dinopic img {
-  width: 536px;
-  height: 422px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-.thai {
-  width: 536px;
-  height: 422px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-.profile_details h2 {
-  text-align: center;
-}
-
-.creations h3 {
-  font-family: Ubuntu;
-  font-style: normal;
-  font-weight: 500;
   font-size: 24px;
-  line-height: 167.23%;
+  line-height: 35px;
   text-align: center;
 }
 
-.creations p {
-  font-size: 18px;
-  line-height: 167.23%;
-  text-align: center;
-  margin: 50px 50px 50px 50px;
+@media screen and (min-width: 768px) {
+
+  .profile {
+    visibility: visible;
+    position: absolute;
+    width: 438px;
+    height: 410px;
+    left: 545px;
+    top: 132px;
+    z-index: 1;
+  }
+
+  .diamond {
+    visibility: visible;
+    position: absolute;
+    width: 438px;
+    height: 410px;
+    left: 619px;
+    top: 132px;
+  }
 }
 
-.thai h3 {
-  font-family: Ubuntu;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 167.23%;
-  text-align: center;
-}
+/*Case Study*/
 
-/*project page*/
-.tab {
-  position: absolute;
-  width: 236px;
-  height: 65px;
-  margin-bottom: 150px;
-}
+#recentcaseL {
+  display: flex;
+  flex-wrap: nowrap;
 
-#casedetails {
-  position: relative;
-  width: 883px;
-  height: 482px;
-  left: 137px;
-}
-
-.mobile-prototype {
-  position: relative;
-  width: 672px;
-  height: 414.52px;
-  left: 41px;
-  top: 183px;
-}
-
-#case-header {
+  margin-top: 100px;
   width: 100%;
-  height: 759px;
-  left: 0px;
-  background: linear-gradient(180deg, #860263 0%, rgba(217, 3, 104, 0.81) 100%);
+  height: 450px;
+  background-color: #FE7F2D;
 }
 
-#case-header .button {
-  position: absolute;
-  width: 170px;
-  height: 50px;
-  left: 730px;
-  top: 483px;
-}
-
-#case-header h2 {
-  position: absolute;
-  width: 186px;
+#recentcaseL h3 {
+  color: #FFFFFF;
+  width: 140px;
   height: 22px;
-  left: 725px;
-  top: 229px;
-  color: #ffffff;
   font-family: Ubuntu;
   font-style: normal;
   font-weight: bold;
-  font-size: 48px;
+  font-size: 36px;
   line-height: 22px;
+  letter-spacing: -0.0141176em;
+  padding-top: 50px;
+  padding-left: 373px;
 }
 
-#case-header p {
-  position: absolute;
-  width: 419px;
-  height: 94px;
-  left: 600px;
-  top: 317px;
-  color: #ffffff;
-  font-family: Montserrat;
+#recentcaseL p {
+  width: 528px;
+  height: 240px;
+  font-family: Didact Gothic;
   font-style: normal;
-  font-weight: 500;
-  font-size: 28px;
-  line-height: 167.23%;
-  text-align: center;
-}
-
-/*My Roles*/
-#casedetails {
-  display: flex;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  margin-top: 50px;
-  justify-content: space-between;
-}
-
-#casedetails .myrole h2 {
-  font-family: Ubuntu;
-  font-size: 2.4em;
-  font-weight: 500;
-  margin-bottom: 10px;
-}
-
-#casedetails .myrole h6 {
-  font-size: 18px;
-  line-height: 167.23%;
-}
-
-#casedetails .deliverables h2 {
-  font-family: Ubuntu;
-  font-size: 2.4em;
-  font-weight: 500;
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-#casedetails .deliverables h6 {
-  text-align: center;
-  line-height: 167.23%;
-  font-size: 18px;
-}
-
-#casedetails .tools h2 {
-  font-family: Ubuntu;
-  font-size: 2.4em;
-  font-weight: 500;
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-#casedetails .tools h6 {
-  text-align: center;
-  line-height: 167.23%;
-  font-size: 18px;
-}
-
-/*problem*/
-#problem {
-  display: flex;
-  height: 344px;
-  flex-direction: column;
-}
-
-#problem .tab {
-  top: 1259px;
-}
-
-#problem p {
-  width: 894px;
-  line-height: 167.23%;
-  align-items: center;
-  text-align: left;
-}
-
-/*solution section*/
-#solution {
-  display: flex;
-  flex-direction: column;
-  height: 750px;
-}
-
-#solution .sprinkle_pic {
-  align-self: center;
-  width: 993px;
-  height: 375px;
-}
-
-#solution .tab {
-  top: 1568px;
-}
-
-#solution p {
-  margin-top: 25px;
-  line-height: 40px;
-  text-align: left;
-}
-
-/*survey section*/
-#survey {
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: column;
-}
-
-#survey .facts {
-  columns: 3 left: 432px;
-}
-
-#survey .challenges h3 {
+  font-weight: normal;
   font-size: 24px;
-  font-family: Ubuntu;
-  font-weight: bold;
+  line-height: 167.23%;
   text-align: center;
-  margin-top: 30px;
-  margin-bottom: 10px;
+  left: 185px;
+  position: absolute;
+  color: #FFFFFF;
+  padding-top: 100px;
 }
 
-#survey .challenges h6 {
-  font-size: 20px;
-  text-align: center;
-  line-height: 40px;
+.sprinkle {
+  width: 194px;
+  height: 393px;
+  position: absolute;
+  right: 143px;
+  padding-top: 45px;
 }
 
-#survey .button {
-  margin-top: 30px;
-  width: 250px;
-  height: 50px;
-}
-
-/*competitive analysis*/
-#competitive {
+.sprinkledeets {
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
-  height: 823px;
 }
 
-#competitive p {
-  text-align: left;
-  line-height: 40px;
+#recentcaseL button {
+margin-top: 350px;
+
 }
 
-#competitive .tab {
-  width: 455px;
-  height: 65px;
-  margin-top: 75px;
+/*About Me*/
+
+.aboutme {
+  display: flex;
+  flex-direction: column;
 }
 
-#competitive .cakeboss {
-  width: 326px;
-  height: 112px;
-}
-
-#competitive .cakebosssect p {
-  width: 326px;
-}
-
-#competitive .bakediary {
-  width: 324px;
-  height: 130px;
-}
-
-#competitive .bakediarysect p {
-  width: 324px;
-}
-
-#competitive .google_drive {
-  width: 311px;
-  height: 389px;
-}
-
-#competitive .googlesect p {
-  width: 311px;
-}
-
-/*user personas*/
-#personas {
+#profile_details h1 {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
-}
-
-#personas .tab {
-  margin-bottom: 50px;
-}
-
-#personas .personas {
-  width: 520.13px;
-  height: 278px;
-  flex-basis: auto;
-}
-
-#personas p {
-  text-align: left;
-  line-height: 40px;
-}
-
-/* User stories*/
-#stories {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  height: 551px;
-}
-
-#stories .user_stories {
-  width: 520.13px;
-  height: 278px;
-  align-self: center;
-}
-
-#stories p {
-  margin-top: 125px;
-  line-height: 40px;
-  text-align: left;
-}
-
-/*user flows*/
-#flows {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  height: 1450px;
-}
-
-#flows .user_flow {
-  width: 794px;
-  height: 508px;
-  align-self: center;
-  margin-top: 125px;
-  margin-bottom: 25px;
-}
-
-#flows p {
-  line-height: 40px;
-  margin-bottom: 50px;
-  text-align: left;
-}
-
-#flows .sitemap {
-  width: 498px;
-  height: 451px;
-  align-self: center;
-}
-
-/*Wireframes*/
-#wire {}
-
-#wire .sketches {
-  display: flex;
-  width: 218px;
-  height: 199px;
-}
-
-#wire .wireframe {
-  width: 519px;
-  height: 369px;
-}
-
-/*Usability Test 1*/
-#usability1 {
-  display: flex;
-  flex-direction: column;
-}
-
-#usability1 .sprinkle_img {
-  margin-top: 100px;
-  width: 647px;
-  height: 579px;
-  align-self: center;
-}
-
-#usability1 .payment {
-  width: 466px;
-  height: 415px;
-}
-
-#usability1 p {
-  line-height: 40px;
-  margin-bottom: 25px;
-}
-
-#usability1 .button {
-  width: 170px;
-  height: 50px;
-  margin-left: 500px;
-}
-
-/*Branding*/
-#branding {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  align-items: center;
-}
-
-#branding .logo {
-  margin-top: 125px;
-  width: 550.08px;
-  height: 283.01px;
-  align-self: center;
-}
-
-#branding .style {
-  width: 677px;
-  height: 930px;
   justify-content: center;
 }
 
-#branding p {
-  line-height: 40px;
+.selfportrait{
+  width: 419px;
+  height: 771px;
+  display: block;
+  margin: auto;
+}
+
+.photo {
+  display: block;
+  margin:auto;
+}
+#profile_details h2,h3 {
+  text-align: center;
   margin: 20px;
+}
+#profile_details p {
+  font-size: 18px;
+  line-height: 40px;
   text-align: left;
-}
-
-/*Preference Testing*/
-#preference .tab {
-  width: 404px;
-  height: 65px;
-}
-
-#preference {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-}
-
-#preference .testpic {
-  width: 386px;
-  height: 328px;
-}
-
-/*Hi Fi Mockup*/
-#hifi {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  height: 750px;
-}
-
-#hifi p {
-  line-height: 40px;
-  margin-top: 10px;
-}
-
-#hifi .mockup {
-  width: 697px;
-  height: 445px;
-  margin-top: 150px;
-  align-self: center;
-}
-
-/*Usability Round 2*/
-#testing2 .tab {
-  width: 463px;
-  height: 65px;
-}
-
-#testing2 {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-}
-
-#testing2 .button {
-  width: 170px;
-  height: 50px;
-  margin-top: 20px;
-}
-
-#testing2 .sprinkle_img2 {
-  width: 697px;
-  height: 445px;
-  align-self: center;
-  margin-top: 125px;
-}
-
-#testing2 p {
-  text-align: center;
-  font-size: 18px;
-  font-style: normal;
-  line-height: 40px;
-}
-
-/*Reflections*/
-#reflect {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  height: 750px;
-}
-
-.reflections {
-  margin-top: 100px;
-}
-
-#reflect h3 {
-  text-align: center;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  padding-top: 50px;
-  margin-bottom: 10px;
-}
-
-#reflect p {
-  font-size: 18px;
-  text-align: left;
-  line-height: 40px;
-  width: 894px;
-  margin: 0 auto;
-}
-
-/*key takeaway*/
-#key h3 {
-  font-family: Ubuntu;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 36px;
-  text-align: center;
-  padding-top: 125px;
-}
-
-.work p {
-  width: 894px;
-  text-align: center;
-  margin: 0 auto;
-  font-size: 18px;
-}
-
-
-
-#survey .tab {
-  top: 2353px;
+  margin: 50px;
 }
