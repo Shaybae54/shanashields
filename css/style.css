@@ -86,7 +86,7 @@ button:hover {
 .logo {
   width: 66.69px;
   height: 47.15px;
-  line-height: 70px;
+  float: left;
 }
 
 .navbar {
