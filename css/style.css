@@ -1,5 +1,4 @@
 /* Global*/
-
 * {
   box-sizing: border-box;
 }
@@ -14,7 +13,6 @@ body {
 }
 
 /*Fonts*/
-
 @font-face {
   font-family: 'autographyregular';
   src: url('./fonts/autography-webfont.woff2') format('woff2'),
@@ -30,8 +28,7 @@ h1 {
   font-size: 6.4em;
 }
 
-
-h2  {
+h2 {
   font-family: Ubuntu;
   font-weight: bold;
   line-height: 22px;
@@ -39,16 +36,16 @@ h2  {
 }
 
 h3 {
-    font-family: Ubuntu;
-    font-weight: bold;
-    line-height: 22px;
-    font-size: 3.6em;
+  font-family: Ubuntu;
+  font-weight: bold;
+  line-height: 22px;
+  font-size: 3.6em;
 }
 
 h4 {
-    font-family: Ubuntu;
-    line-height: 22px;
-    font-size: 2.4em;
+  font-family: Ubuntu;
+  line-height: 22px;
+  font-size: 2.4em;
 }
 
 p {
@@ -56,23 +53,20 @@ p {
 }
 
 /*buttons*/
-
 button {
-
-width: 170px;
-height: 50px;
-border-radius: 30px;
-background: #D90368;
-border-style: none;
+  width: 170px;
+  height: 50px;
+  border-radius: 30px;
+  background: #D90368;
+  border-style: none;
 }
 
 .pink_button {
-font-family: Montserrat;
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-color: #FFFFFF;
-
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #FFFFFF;
 }
 
 .pink_button:hover {
@@ -89,71 +83,76 @@ button:hover {
 }
 
 /*Navigation Bar*/
-
 .logo {
   width: 66.69px;
   height: 47.15px;
-  margin: 15px;
-}
-
-.header-container {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-}
-
-.header-container ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-
-}
-
-.navbar li {
-  margin-right: 25px;
+  line-height: 70px;
 }
 
 .navbar {
-  margin-inline-start: auto;
-  padding-right: 20px;
-  padding-top: 20px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  height: 70px;
+  line-height: 70px;
+  text-align: right;
+  letter-spacing: -0.0141176em;
 }
 
-.navbar {
-font-family: Ubuntu;
-font-style: normal;
-font-weight: bold;
-font-size: 24px;
-line-height: 22px;
-display: flex;
-flex-direction: column;
-text-align: center;
-letter-spacing: -0.0141176em;
-}
-
-.navbar a {
+.menu a {
+  clear: right;
   color: #820263;
   text-decoration: none;
+  margin: 0 10px;
+  line-height: 70px;
 }
 
 .navbar a:hover {
   color: #FE7F2D;
 }
 
-/*Hamburger Menu*/
-
-@media screen and (max-width: 768px) {
-
-
-
-
-.logo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.menu {
+  margin: 0 30px 0 0;
 }
+
+label {
+  margin: 0 40px 0 0;
+  font-size: 26px;
+  color: #820263;
+  line-height: 70px;
+  display: none;
+  width: 26px;
+  float: right;
 }
+
+#toggle {
+  display: none;
+}
+
+@media only screen and (max-width: 500px) {
+  label {
+    display: block;
+    cursor: pointer;
+  }
+
+  .menu {
+    text-align: center;
+    width: 100%;
+    display: none;
+  }
+
+  .menu a {
+    display: block;
+    border-bottom: 1px solid #F7F7F7;
+    margin: 0;
+  }
+
+  #toggle:checked+.menu {
+    display: block;
+  }
+}
+
 
 /*footer*/
 footer {
@@ -199,8 +198,9 @@ footer p {
 }
 
 /*Hero Unit*/
-
 #hero-unit {
+  display: flex;
+  flex-direction: column;
   margin-top: 25px;
   width: 100%;
   height: 550px;
@@ -209,24 +209,27 @@ footer p {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
 }
 
-#hero-unit h1 {
-  font-size: 6.4em;
-  position: absolute;
+#hero-unit .hi {
+  display: flex;
+  flex-direction: column;
   height: 22px;
   left: 136px;
-  top: 229px;
-  ;
+  margin-top: 150px;
+  margin-left: 135px;
   letter-spacing: -0.0141176em;
 }
 
 .name h1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 0, 0;
   font-family: 'autographyregular';
   color: #FE7F2D;
   position: absolute;
   width: 155px;
   height: 22px;
   left: 326px;
-  top: 235px;
+  top: 260px;
 }
 
 .profile {
@@ -237,13 +240,12 @@ footer p {
   visibility: collapse;
 }
 
-
 .whoami {
   position: relative;
   width: 434px;
   height: 105px;
   left: 90px;
-  top: 250px;
+  top: 50px;
   font-family: Didact Gothic;
   font-style: normal;
   font-weight: normal;
@@ -253,7 +255,6 @@ footer p {
 }
 
 @media screen and (min-width: 768px) {
-
   .profile {
     visibility: visible;
     position: absolute;
@@ -274,12 +275,16 @@ footer p {
   }
 }
 
-/*Case Study*/
-
 #recentcaseL {
   display: flex;
-  flex-wrap: nowrap;
+  flex-grow: 5;
+  flex-direction: column;
+}
 
+/*Case Study*/
+#recentcaseL {
+  display: flex;
+  flex-wrap: wrap;
   margin-top: 100px;
   width: 100%;
   height: 450px;
@@ -310,7 +315,10 @@ footer p {
   line-height: 167.23%;
   text-align: center;
   left: 185px;
-  position: absolute;
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+  flex-wrap: wrap;
   color: #FFFFFF;
   padding-top: 100px;
 }
@@ -329,24 +337,27 @@ footer p {
 }
 
 #recentcaseL button {
-margin-top: 350px;
-
+  margin-top: 350px;
 }
 
 /*About Me*/
-
 .aboutme {
   display: flex;
   flex-direction: column;
+}
+
+#profiledetails {
+  display: flex;
 }
 
 #profile_details h1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  line-height: 75px;
 }
 
-.selfportrait{
+.selfportrait {
   width: 419px;
   height: 771px;
   display: block;
@@ -355,12 +366,14 @@ margin-top: 350px;
 
 .photo {
   display: block;
-  margin:auto;
+  margin: auto;
 }
-#profile_details h2,h3 {
+
+#profile_details h2, h3 {
   text-align: center;
   margin: 20px;
 }
+
 #profile_details p {
   font-size: 18px;
   line-height: 40px;
