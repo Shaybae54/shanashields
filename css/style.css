@@ -87,12 +87,15 @@ button:hover {
   width: 66.69px;
   height: 47.15px;
   float: left;
+  margin-top: 5px;
+  margin-left: 30px;
 }
 
 .navbar {
   font-family: Ubuntu;
   font-style: normal;
   font-weight: bold;
+  margin-top: 25px;
   font-size: 24px;
   height: 70px;
   line-height: 70px;
@@ -146,19 +149,26 @@ label {
     display: block;
     border-bottom: 1px solid #F7F7F7;
     margin: 0;
+    background: #000000;
   }
 
   #toggle:checked+.menu {
     display: block;
   }
-}
 
+  .logo {
+    display: inline-flex;
+    vertical-align: middle;
+    margin-top: 10px;
+    margin-left: 40%;
+  }
+}
 
 /*footer*/
 footer {
   position: relative;
   width: 100%;
-  height: 250px;
+  height: 300px;
   left: 0px;
   background: #820263;
   bottom: 0px;
@@ -254,7 +264,7 @@ footer p {
   text-align: center;
 }
 
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .profile {
     visibility: visible;
     position: absolute;
@@ -275,20 +285,49 @@ footer p {
   }
 }
 
-#recentcaseL {
-  display: flex;
-  flex-grow: 5;
-  flex-direction: column;
+@media only screen and (max-width: 500px) {
+  .whoami {
+    width: 250px;
+    overflow: visible;
+    text-overflow: clip;
+    margin: 0;
+    display: inline-flex;
+    text-align: center;
+  }
+
+  .name h1 {
+    overflow: visible;
+    text-overflow: clip;
+    width: 250px;
+    display: inline-flex;
+    text-align: left;
+  }
+
+  .hi h1 {
+    margin-left: -30px;
+    width: 300px;
+  }
+
+  .name h1 {
+    display: block;
+    margin: 0;
+    position: inherit;
+    margin-top: 60px;
+    padding-left: 115px;
+    width: 50px;
+  }
 }
 
 /*Case Study*/
 #recentcaseL {
-  display: flex;
-  flex-wrap: wrap;
+  padding: 5rem 5rem 5rem 10%;
+  height: 80%;
+  width: 90%;
+  margin: 0 auto;
   margin-top: 100px;
-  width: 100%;
-  height: 450px;
-  background-color: #FE7F2D;
+  display: flex;
+  background-image: linear-gradient(to right, #FE7F2D, #FC7D2B);
+  align-items: center;
 }
 
 #recentcaseL h3 {
@@ -298,52 +337,83 @@ footer p {
   font-family: Ubuntu;
   font-style: normal;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 3.6em;
   line-height: 22px;
   letter-spacing: -0.0141176em;
-  padding-top: 50px;
-  padding-left: 373px;
+  margin-left: 33%;
+  margin-bottom: 20px;
 }
 
-#recentcaseL p {
+.sprinkledeets p {
   width: 528px;
-  height: 240px;
+  height: 225px;
   font-family: Didact Gothic;
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
+  font-size: 2.4em;
   line-height: 167.23%;
-  text-align: center;
-  left: 185px;
-  display: flex;
-  flex-direction: row;
-  margin-left: 100px;
-  flex-wrap: wrap;
   color: #FFFFFF;
-  padding-top: 100px;
+  text-align: left;
+  margin-left: 25px;
 }
 
-.sprinkle {
-  width: 194px;
-  height: 393px;
-  position: absolute;
-  right: 143px;
-  padding-top: 45px;
+.phonepic {
+  max-width: 60%;
+  width: 60%;
+  height: 60%;
+  display: block;
+  text-align: right;
+  margin: 0 auto;
 }
 
-.sprinkledeets {
-  display: flex;
-  flex-direction: column;
+.pink_button {
+  margin-left: 160px;
 }
 
-#recentcaseL button {
-  margin-top: 350px;
+@media only screen and (max-width: 500px) {
+  #recentcaseL {
+    width: 100%;
+  }
+
+  #recentcaseL {
+    flex: none;
+    display: block;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .sprinkledeets p {
+    display: block;
+    height: 240px;
+    width: 60%;
+    font-size: 1.8em;
+    text-overflow: clip;
+    overflow: visible;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .phonepic {
+    max-width: 50%;
+    width: 75%;
+    height: 75%;
+    display: block;
+    text-align: right;
+    margin: 0 auto;
+  }
+
+  .pink_button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
 }
 
 /*About Me*/
 .aboutme {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 #profiledetails {
@@ -357,16 +427,21 @@ footer p {
   line-height: 75px;
 }
 
-.selfportrait {
+.name {
+  margin-top: 5px;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-family: 'autographyregular';
+  color: #FE7F2D;
+}
+
+.self {
   width: 419px;
   height: 771px;
   display: block;
-  margin: auto;
-}
-
-.photo {
-  display: block;
-  margin: auto;
+  margin: 0 auto;
 }
 
 #profile_details h2, h3 {
@@ -379,4 +454,117 @@ footer p {
   line-height: 40px;
   text-align: left;
   margin: 50px;
+}
+
+.dinopic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:50%;
+}
+
+.thai {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:50%;
+}
+
+@media only screen and (max-width: 500px) {
+
+  #profile_details h1 {
+    display: inline-block;
+    width: 60%;
+    font-size: 4.8em;
+    text-align: center;
+    margin-left: 20%;
+    line-height: 50px;
+  }
+  .self {
+    width: 239px;
+    height: 440px;
+    display: block;
+    margin: 18%;
+  }
+
+  #profile_details p {
+    display: inline-block;
+    width: 80%;
+    font-size: 1.4em;
+    text-align: center;
+    justify-content: center;
+    margin-left: 9%;
+    line-height: 23px;
+  }
+
+  #profile_details h2, h3 {
+    display: inline-block;
+    width: 80%;
+    font-size: 2.4em;
+    text-align: center;
+    justify-content: center;
+    margin-left: 7%;
+    line-height: 23px;
+  }
+
+  .photo {
+    width: 315px;
+    height: 248px;
+    display: block;
+    margin-left: 4%;
+  }
+
+}
+
+/*Project Page*/
+
+h6 {
+  font-family: Didact Gothic;
+}
+#casedetails {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+
+#casedetails .myrole h2 {
+  font-family: Ubuntu;
+  font-size: 2.4em;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+#casedetails .myrole h6 {
+  font-size: 18px;
+  line-height: 167.23%;
+}
+
+#casedetails .deliverables h2 {
+  font-family: Ubuntu;
+  font-size: 2.4em;
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#casedetails .deliverables h6 {
+  text-align: center;
+  line-height: 167.23%;
+  font-size: 18px;
+}
+
+#casedetails .tools h2 {
+  font-family: Ubuntu;
+  font-size: 2.4em;
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#casedetails .tools h6 {
+  text-align: center;
+  line-height: 167.23%;
+  font-size: 18px;
 }
