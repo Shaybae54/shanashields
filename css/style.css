@@ -517,16 +517,146 @@ footer p {
 }
 
 /*Project Page*/
+ .tab {
+   margin-top:50px;
+   margin-bottom: 50px;
+   position: sticky;
+ }
 
 h6 {
   font-family: Didact Gothic;
 }
+
+.sections p {
+  font-size:20px;
+  line-height: 40px;
+  margin:50px;
+}
+
+/*--Protoype Hero Unit--*/
+
+#case-header {
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+  width:100%;
+  background: linear-gradient(180deg, #860263 0%, rgba(217, 3, 104, 0.81) 100%);
+  height: 759px;
+  left: 0px;
+}
+
+.mobile-prototype {
+  align-self: center;
+  width: 672px;
+height: 414.52px;
+  display:flex;
+  flex-direction:column;
+}
+
+.casestudy {
+  align-self: center;
+  display:flex;
+  flex-direction:column;
+}
+
+.casestudy h2{
+  text-align: center;
+  color:#FFFFFF;
+  position: relative;
+}
+
+.casestudy p {
+  color: #FFFFFF;
+  font-size: 2.8em;
+  text-align: center;
+  margin:50px;
+}
+
+#case-header button {
+  width: 170px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: #FF03FF;
+  border-style: none;
+}
+
+#case-header .light_button {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+#case-header .light_button:hover {
+  color: #D90368;
+
+}
+
+#case-header button:hover {
+  width: 170px;
+  height: 50px;
+  border-radius: 30px;
+  background: #FFFFFF;
+  border-color: #D90368;
+  border-style: solid;
+  text-decoration-color: #D90368;
+}
+
+.buttons {
+  text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+  #case-header {
+    width: 100%;
+  }
+
+  #case-header {
+    flex: none;
+    display: block;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .casestudy p {
+    display: block;
+    height: 100px;
+
+    font-size: 1.8em;
+    text-overflow: clip;
+    overflow: visible;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top:5%;
+  }
+
+  .mobile-prototype {
+    max-width: 70%;
+    width: 70%;
+    height: 70%;
+    display: block;
+    text-align: right;
+    margin: 0 auto;
+    padding-top: 40%;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  flex: 1;
+
+}
+}
+/*---Case Details--*/
 #casedetails {
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
   margin-top: 50px;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 #casedetails .myrole h2 {
@@ -567,4 +697,381 @@ h6 {
   text-align: center;
   line-height: 167.23%;
   font-size: 18px;
+}
+
+/*---Problem Section--*/
+
+.problem p {
+  vertical-align: middle;
+}
+
+/*--Solution--*/
+
+.sprinkle_pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#solution p {
+display: block;
+margin-left: 50 auto;
+margin-right: 50 auto;
+}
+
+/*--User Survey Section--*/
+.facts{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.orders {
+  display: flex;
+  flex-direction: column;
+  width: 228px;
+height: 367px;
+
+}
+
+.time {
+  width: 208px;
+  height: 367px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.software {
+  display: flex;
+  flex-direction: column;
+  width: 208px;
+height: 367px;
+}
+
+.challenges h6{
+text-align: center;
+font-size: 2.0em;
+line-height: 40px;
+}
+
+#survey .button_words {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #FFFFFF;
+
+}
+
+.surveybutton {
+  width: 250px;
+  margin-top: 25px;
+  margin-bottom:55px;
+  margin-left:39%;
+
+}
+
+.surveybutton a {
+  text-decoration: none;
+}
+
+#survey .surveybutton:hover {
+  color: #D90368;
+
+}
+
+#survey button:hover {
+  width: 250px;
+  height: 50px;
+  border-radius: 30px;
+  background: #F26103;
+  border-color: #D90368;
+  border-style: none;
+
+}
+
+@media only screen and (max-width: 500px) {
+
+.tab {
+  height: 40px;
+
+}
+
+  .facts {
+    flex-wrap: wrap;
+  }
+
+  .surveybutton {
+    width: 50%;
+    margin-left:24%
+
+  }
+
+  .companies {
+    flex-wrap: wrap;
+  }
+
+  .compbuttons {
+    width:50%;
+    text-align: center;
+  }
+
+  .personas {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .sara{
+    width: 420.13px;
+  height: 178px;
+  padding-bottom: 350px;
+  }
+
+  .madison {
+    width: 420.13px;
+    height: 178px;
+    margin-bottom:150px;
+  }
+
+  .user_stories {
+    width: 433px;
+height: 396.9px;
+display: block;
+
+  }
+  .sitemaps {
+    flex-wrap: wrap;
+  }
+
+  .styleguide {
+    width: 313.02px;
+height: 430px;
+  }
+
+  .sprinklelogo {
+    width: 246px;
+height: 126.56px;
+  }
+}
+
+/*--Competitive Analysis--*/
+
+.companies {
+  display: flex;
+  flex-direction: row;
+}
+
+.cakebosssect {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+}
+
+.bakediarysect {
+  display: flex;
+  flex-direction: column;
+}
+
+.googlesect {
+  display: flex;
+  flex-direction: column;
+}
+
+#competitive .button_words {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #FFFFFF;
+
+}
+
+.compbuttons {
+  width: 250px;
+  margin-bottom:55px;
+  margin-left:39%;
+
+}
+
+.compbuttons a {
+  text-decoration: none;
+}
+
+#competitive .compbuttons:hover {
+  color: #D90368;
+
+}
+
+#competitive button:hover {
+  width: 250px;
+  height: 50px;
+  border-radius: 30px;
+  background: #F26103;
+  border-color: #D90368;
+  border-style: none;
+
+}
+
+/*--User Personas--*/
+
+.personas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.sara {
+  display: flex;
+  flex-direction: column;
+}
+
+.madison {
+  display: flex;
+  flex-direction: column;
+}
+
+/*--User Stories--*/
+
+.user_stories {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+/*--User Flow--*/
+
+.user_flow {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sitemaps {
+  display: flex;
+  flex-direction: row;
+  margin-right: 50px;
+}
+
+.sitetext {
+  display: flex;
+  flex-direction: column;
+}
+
+.sitepic {
+  display: flex;
+  flex-direction: column;
+}
+
+/*--Wireframing--*/
+
+.sketches  {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex:1;
+  margin-left:50px;
+  margin-right:50px;
+}
+
+.wireframes {
+  display: flex;
+  flex-direction: row;
+  margin-left:50px;
+  margin-right:50px;
+  flex-wrap: wrap;
+}
+
+.wireframe1 {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.wireframe2 {
+  display: flex;
+  flex-direction: column;
+}
+
+/*--Usability Testing--*/
+
+.sprinkle_wire {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#usability1 .button_words {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #FFFFFF;
+
+}
+
+.usebutton {
+  width: 250px;
+  margin-bottom:25px;
+  margin-left:39%;
+
+}
+
+.usebutton a {
+  text-decoration: none;
+}
+
+#usability1 .usebuttons:hover {
+  color: #D90368;
+
+}
+
+#usability1 button:hover {
+  width: 250px;
+  height: 50px;
+  border-radius: 30px;
+  background: #F26103;
+  border-color: #D90368;
+  border-style: none;
+
+}
+
+.paymentpages {
+display: flex;
+flex-direction: row;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.paymentpage1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.paymentpage2 {
+  display: flex;
+  flex-direction: column;
+}
+
+/*--Branding--*/
+
+#branding p{
+  font-size: 2.0em;
+  line-height: 40px;
+  margin:50px;
+  justify-content: center;
+}
+
+.sprinklelogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.styleguide {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
