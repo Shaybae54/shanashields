@@ -149,7 +149,13 @@ label {
     display: block;
     border-bottom: 1px solid #F7F7F7;
     margin: 0;
-    background: #000000;
+    position: relative;
+    z-index: 1;
+    background-color: #ffffff;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 1px solid #D90368;
+    opacity: .9;
   }
 
   #toggle:checked+.menu {
@@ -187,7 +193,7 @@ footer {
   padding-top: 20px;
 }
 
-footer h3 {
+footer h4 {
   color: #FFFFFF;
   text-align: center;
   font-family: Ubuntu;
@@ -239,7 +245,7 @@ footer p {
   width: 155px;
   height: 22px;
   left: 326px;
-  top: 260px;
+  top: 275px;
 }
 
 .profile {
@@ -286,25 +292,33 @@ footer p {
 }
 
 @media only screen and (max-width: 500px) {
+  .navbar {
+    display: block;
+  }
+
+  #hero-unit {
+    height: 750px;
+  }
+
   .whoami {
-    width: 250px;
+    width: 65%;
     overflow: visible;
     text-overflow: clip;
     margin: 0;
     display: inline-flex;
-    text-align: center;
+    justify-content: center;
   }
 
   .name h1 {
     overflow: visible;
     text-overflow: clip;
-    width: 250px;
+    width: 60%;
     display: inline-flex;
     text-align: left;
   }
 
   .hi h1 {
-    margin-left: -30px;
+    margin-left: 5%;
     width: 300px;
   }
 
@@ -313,7 +327,7 @@ footer p {
     margin: 0;
     position: inherit;
     margin-top: 60px;
-    padding-left: 115px;
+    padding-left: 30%;
     width: 50px;
   }
 }
@@ -385,7 +399,7 @@ footer p {
   .sprinkledeets p {
     display: block;
     height: 240px;
-    width: 60%;
+    width: 75%;
     font-size: 1.8em;
     text-overflow: clip;
     overflow: visible;
@@ -394,18 +408,23 @@ footer p {
     margin: 0 auto;
   }
 
+  .sprinkledeets h3 {
+    text-align: center;
+    margin-top: 50px;
+  }
+
   .phonepic {
     max-width: 50%;
     width: 75%;
     height: 75%;
     display: block;
-    text-align: right;
-    margin: 0 auto;
+    text-align: center;
+    margin-left: 23%;
   }
 
   .pink_button {
     display: block;
-    margin: 0 auto;
+    margin-left: 33%;
     margin-top: 30px;
   }
 }
@@ -460,18 +479,17 @@ footer p {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width:50%;
+  width: 50%;
 }
 
 .thai {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width:50%;
+  width: 50%;
 }
 
 @media only screen and (max-width: 500px) {
-
   #profile_details h1 {
     display: inline-block;
     width: 60%;
@@ -480,66 +498,68 @@ footer p {
     margin-left: 20%;
     line-height: 50px;
   }
+
   .self {
     width: 239px;
     height: 440px;
     display: block;
-    margin: 18%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   #profile_details p {
-    display: inline-block;
+    display: block;
     width: 80%;
     font-size: 1.4em;
     text-align: center;
     justify-content: center;
-    margin-left: 9%;
+    margin-left: auto;
+    margin-right: auto;
     line-height: 23px;
   }
 
   #profile_details h2, h3 {
-    display: inline-block;
+    display: block;
     width: 80%;
     font-size: 2.4em;
     text-align: center;
     justify-content: center;
-    margin-left: 7%;
+    margin-left: auto;
+    margin-right: auto;
     line-height: 23px;
   }
 
   .photo {
     width: 315px;
     height: 248px;
-    display: block;
-    margin-left: 4%;
+    margin-left: -32px;
   }
-
 }
 
 /*Project Page*/
- .tab {
-   margin-top:50px;
-   margin-bottom: 50px;
-   position: sticky;
- }
+.tab {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  position: sticky;
+}
 
 h6 {
   font-family: Didact Gothic;
 }
 
 .sections p {
-  font-size:20px;
+  font-size: 20px;
   line-height: 40px;
-  margin:50px;
+  margin: 50px;
 }
 
 /*--Protoype Hero Unit--*/
-
 #case-header {
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   justify-content: space-around;
-  width:100%;
+  width: 100%;
   background: linear-gradient(180deg, #860263 0%, rgba(217, 3, 104, 0.81) 100%);
   height: 759px;
   left: 0px;
@@ -548,20 +568,20 @@ h6 {
 .mobile-prototype {
   align-self: center;
   width: 672px;
-height: 414.52px;
-  display:flex;
-  flex-direction:column;
+  height: 414.52px;
+  display: flex;
+  flex-direction: column;
 }
 
 .casestudy {
   align-self: center;
-  display:flex;
-  flex-direction:column;
+  display: flex;
+  flex-direction: column;
 }
 
-.casestudy h2{
+.casestudy h2 {
   text-align: center;
-  color:#FFFFFF;
+  color: #FFFFFF;
   position: relative;
 }
 
@@ -569,7 +589,7 @@ height: 414.52px;
   color: #FFFFFF;
   font-size: 2.8em;
   text-align: center;
-  margin:50px;
+  margin: 50px;
 }
 
 #case-header button {
@@ -590,7 +610,6 @@ height: 414.52px;
 
 #case-header .light_button:hover {
   color: #D90368;
-
 }
 
 #case-header button:hover {
@@ -608,6 +627,27 @@ height: 414.52px;
 }
 
 @media only screen and (max-width: 500px) {
+
+  .project .navbar {
+    background:#860263;
+  }
+
+.project .menu a {
+  color: #D90368;
+  position: relative;
+  z-index: 1;
+  background-color: #ffffff;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-bottom: 1px solid #D90368;
+  opacity: .8;
+
+}
+
+.project label {
+  color: #FFFFFF;
+}
+
   #case-header {
     width: 100%;
   }
@@ -622,14 +662,13 @@ height: 414.52px;
   .casestudy p {
     display: block;
     height: 100px;
-
     font-size: 1.8em;
     text-overflow: clip;
     overflow: visible;
     text-align: center;
     justify-content: center;
     margin: 0 auto;
-    padding-top:5%;
+    padding-top: 5%;
   }
 
   .mobile-prototype {
@@ -640,16 +679,16 @@ height: 414.52px;
     text-align: right;
     margin: 0 auto;
     padding-top: 40%;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    flex: 1;
+  }
 }
 
-.buttons {
-  display: flex;
-  flex-direction: row;
-  align-self: center;
-  flex: 1;
-
-}
-}
 /*---Case Details--*/
 #casedetails {
   display: flex;
@@ -700,13 +739,11 @@ height: 414.52px;
 }
 
 /*---Problem Section--*/
-
 .problem p {
   vertical-align: middle;
 }
 
 /*--Solution--*/
-
 .sprinkle_pic {
   display: block;
   margin-left: auto;
@@ -714,25 +751,23 @@ height: 414.52px;
 }
 
 #solution p {
-display: block;
-margin-left: 50 auto;
-margin-right: 50 auto;
+  display: block;
+  margin-left: 50 auto;
+  margin-right: 50 auto;
 }
 
 /*--User Survey Section--*/
-.facts{
+.facts {
   display: flex;
   flex-direction: row;
   justify-content: center;
-
 }
 
 .orders {
   display: flex;
   flex-direction: column;
   width: 228px;
-height: 367px;
-
+  height: 367px;
 }
 
 .time {
@@ -740,20 +775,19 @@ height: 367px;
   height: 367px;
   display: flex;
   flex-direction: column;
-
 }
 
 .software {
   display: flex;
   flex-direction: column;
   width: 208px;
-height: 367px;
+  height: 367px;
 }
 
-.challenges h6{
-text-align: center;
-font-size: 2.0em;
-line-height: 40px;
+.challenges h6 {
+  text-align: center;
+  font-size: 2.0em;
+  line-height: 40px;
 }
 
 #survey .button_words {
@@ -762,15 +796,13 @@ line-height: 40px;
   font-weight: 600;
   font-size: 18px;
   color: #FFFFFF;
-
 }
 
 .surveybutton {
   width: 250px;
   margin-top: 25px;
-  margin-bottom:55px;
-  margin-left:39%;
-
+  margin-bottom: 55px;
+  margin-left: 39%;
 }
 
 .surveybutton a {
@@ -779,7 +811,6 @@ line-height: 40px;
 
 #survey .surveybutton:hover {
   color: #D90368;
-
 }
 
 #survey button:hover {
@@ -789,15 +820,16 @@ line-height: 40px;
   background: #F26103;
   border-color: #D90368;
   border-style: none;
-
 }
 
 @media only screen and (max-width: 500px) {
+  .tab {
+    height: 40px;
+  }
 
-.tab {
-  height: 40px;
-
-}
+  .sprinkle_pic {
+    width: 90%;
+  }
 
   .facts {
     flex-wrap: wrap;
@@ -805,8 +837,7 @@ line-height: 40px;
 
   .surveybutton {
     width: 50%;
-    margin-left:24%
-
+    margin-left: 24%
   }
 
   .companies {
@@ -814,50 +845,131 @@ line-height: 40px;
   }
 
   .compbuttons {
-    width:50%;
-    text-align: center;
-  }
+    width: 50%;
+
+   }
 
   .personas {
     flex-wrap: wrap;
     justify-content: center;
   }
 
-  .sara{
+  .sara {
     width: 420.13px;
-  height: 178px;
-  padding-bottom: 350px;
+    height: 178px;
+    padding-bottom: 350px;
   }
 
   .madison {
     width: 420.13px;
     height: 178px;
-    margin-bottom:150px;
+    margin-bottom: 150px;
   }
 
   .user_stories {
     width: 433px;
-height: 396.9px;
-display: block;
-
+    height: 396.9px;
+    display: block;
+    margin-top:-100px;
+    margin-bottom:-100px;
   }
+
+.user_flow {
+  width:90%;
+  flex-wrap: wrap;
+}
+
+
   .sitemaps {
+
     flex-wrap: wrap;
   }
 
+  .sketch {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.wireframe {
+  width:90%;
+  justify-content: center;
+  margin-bottom:25px;
+
+
+}
+
+.wireframes2 {
+  margin-bottom: -50px;
+}
+
+.sprinkle_wire {
+  width:90%;
+}
+
+.usebutton {
+  width:50%;
+
+}
+
+.paymentpages {
+  width:80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
   .styleguide {
     width: 313.02px;
-height: 430px;
+    height: 430px;
   }
 
   .sprinklelogo {
     width: 246px;
-height: 126.56px;
+    height: 126.56px;
   }
+
+.sidebar1 {
+  flex-wrap: wrap;
+}
+
+#preference .sidebarpic{
+width:70%;
+margin-bottom:-50px;
+}
+
+#preference .menus {
+  width:70%;
+  margin-bottom:-50px;
+}
+
+#preference .infoghipic {
+  width:70%;
+  margin-bottom:-50px;
+}
+
+.menustyle {
+  flex-wrap: wrap;
+}
+
+.infohigh {
+  flex-wrap: wrap;
+}
+
+.mockup {
+  width: 386px;
+  height: 243px;
+  margin-top:25px;
+}
+
+#testing2 .sprinkle_img2 {
+  width: 90%;
+  margin-top:-100px;
+  margin-bottom:-100px;
+}
 }
 
 /*--Competitive Analysis--*/
-
 .companies {
   display: flex;
   flex-direction: row;
@@ -885,14 +997,14 @@ height: 126.56px;
   font-weight: 600;
   font-size: 18px;
   color: #FFFFFF;
-
 }
 
 .compbuttons {
   width: 250px;
-  margin-bottom:55px;
-  margin-left:39%;
-
+  margin-bottom: 55px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .compbuttons a {
@@ -901,7 +1013,6 @@ height: 126.56px;
 
 #competitive .compbuttons:hover {
   color: #D90368;
-
 }
 
 #competitive button:hover {
@@ -911,11 +1022,9 @@ height: 126.56px;
   background: #F26103;
   border-color: #D90368;
   border-style: none;
-
 }
 
 /*--User Personas--*/
-
 .personas {
   display: flex;
   flex-direction: row;
@@ -933,16 +1042,14 @@ height: 126.56px;
 }
 
 /*--User Stories--*/
-
 .user_stories {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 /*--User Flow--*/
-
 .user_flow {
   display: block;
   margin-left: auto;
@@ -966,28 +1073,26 @@ height: 126.56px;
 }
 
 /*--Wireframing--*/
-
-.sketches  {
+.sketches {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  flex:1;
-  margin-left:50px;
-  margin-right:50px;
+  flex: 1;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .wireframes {
   display: flex;
   flex-direction: row;
-  margin-left:50px;
-  margin-right:50px;
+  margin-left: 50px;
+  margin-right: 50px;
   flex-wrap: wrap;
 }
 
 .wireframe1 {
   display: flex;
   flex-direction: column;
-
 }
 
 .wireframe2 {
@@ -996,7 +1101,6 @@ height: 126.56px;
 }
 
 /*--Usability Testing--*/
-
 .sprinkle_wire {
   display: block;
   margin-left: auto;
@@ -1009,14 +1113,14 @@ height: 126.56px;
   font-weight: 600;
   font-size: 18px;
   color: #FFFFFF;
-
 }
 
 .usebutton {
   width: 250px;
-  margin-bottom:25px;
-  margin-left:39%;
-
+  margin-bottom: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .usebutton a {
@@ -1025,7 +1129,6 @@ height: 126.56px;
 
 #usability1 .usebuttons:hover {
   color: #D90368;
-
 }
 
 #usability1 button:hover {
@@ -1035,14 +1138,13 @@ height: 126.56px;
   background: #F26103;
   border-color: #D90368;
   border-style: none;
-
 }
 
 .paymentpages {
-display: flex;
-flex-direction: row;
-justify-content: center;
-flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .paymentpage1 {
@@ -1056,11 +1158,10 @@ flex-wrap: wrap;
 }
 
 /*--Branding--*/
-
-#branding p{
+#branding p {
   font-size: 2.0em;
   line-height: 40px;
-  margin:50px;
+  margin: 50px;
   justify-content: center;
 }
 
@@ -1074,4 +1175,194 @@ flex-wrap: wrap;
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+#usability1 .button_words {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.stylebutton {
+  width: 250px;
+  margin-bottom: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#branding .button_words {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.stylebutton a {
+  text-decoration: none;
+}
+
+#branding .stylebutton:hover {
+  color: #D90368;
+}
+
+#branding button:hover {
+  width: 250px;
+  height: 50px;
+  border-radius: 30px;
+  background: #F26103;
+  border-color: #D90368;
+  border-style: none;
+}
+
+/*--Preference Testing--*/
+.sidebar1 {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  line-height: 40px;
+  justify-content: center;
+}
+
+.sidebarpic {
+  display: flex;
+  flex-direction: column;
+  width: 486px;
+  height: 428px;
+  margin-left: 20px;
+}
+
+.sidebardeets {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  margin-left: 50px;
+  margin-right: 20px;
+  margin-top: 8%;
+}
+
+.menustyle {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  line-height: 40px;
+  justify-content: center;
+}
+
+.menus {
+  display: flex;
+  flex-direction: column;
+  width: 486px;
+  height: 428px;
+  margin-left: 20px;
+}
+
+.menudeets {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  margin-left: 50px;
+  margin-right: 20px;
+  margin-top: 8%;
+}
+
+.infohigh {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  line-height: 40px;
+  justify-content: center;
+}
+
+.infoghipic {
+  display: flex;
+  flex-direction: column;
+  width: 486px;
+  height: 428px;
+  margin-left: 20px;
+}
+
+.infodeets {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  margin-left: 50px;
+  margin-right: 20px;
+  margin-top: 8%;
+}
+
+/*--Hi Fi Mockup--*/
+.mockup {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#hifi p {
+  font-size: 2.0em;
+  line-height: 40px;
+  margin: 50px;
+  justify-content: center;
+}
+
+/*--Usability Round 2--*/
+.sprinkle_img2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 827px;
+  height: 559.25px;
+}
+
+#testing2 p {
+  font-size: 2.0em;
+  line-height: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+  justify-content: center;
+}
+
+.usebuttons {
+  width: 250px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#testing2 .button_words {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.usebuttons a {
+  text-decoration: none;
+}
+
+#testing2 .usebuttons:hover {
+  color: #D90368;
+}
+
+#testing2 button:hover {
+  width: 250px;
+  height: 50px;
+  border-radius: 30px;
+  background: #F26103;
+  border-color: #D90368;
+  border-style: none;
+}
+
+/*--Reflections--*/
+.reflections p {
+  font-size: 2.0em;
+  margin-left: 50px;
+  margin-right: 50px;
+  line-height:40px;
 }
