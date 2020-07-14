@@ -627,26 +627,24 @@ h6 {
 }
 
 @media only screen and (max-width: 500px) {
-
   .project .navbar {
-    background:#860263;
+    background: #860263;
   }
 
-.project .menu a {
-  color: #D90368;
-  position: relative;
-  z-index: 1;
-  background-color: #ffffff;
-  margin-left: 100px;
-  margin-right: 100px;
-  border-bottom: 1px solid #D90368;
-  opacity: .8;
+  .project .menu a {
+    color: #D90368;
+    position: relative;
+    z-index: 1;
+    background-color: #ffffff;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-bottom: 1px solid #D90368;
+    opacity: .8;
+  }
 
-}
-
-.project label {
-  color: #FFFFFF;
-}
+  .project label {
+    color: #FFFFFF;
+  }
 
   #case-header {
     width: 100%;
@@ -846,8 +844,7 @@ h6 {
 
   .compbuttons {
     width: 50%;
-
-   }
+  }
 
   .personas {
     flex-wrap: wrap;
@@ -870,18 +867,16 @@ h6 {
     width: 433px;
     height: 396.9px;
     display: block;
-    margin-top:-100px;
-    margin-bottom:-100px;
+    margin-top: -100px;
+    margin-bottom: -100px;
   }
 
-.user_flow {
-  width:90%;
-  flex-wrap: wrap;
-}
-
+  .user_flow {
+    width: 90%;
+    flex-wrap: wrap;
+  }
 
   .sitemaps {
-
     flex-wrap: wrap;
   }
 
@@ -891,33 +886,30 @@ h6 {
     margin-right: auto;
   }
 
-.wireframe {
-  width:90%;
-  justify-content: center;
-  margin-bottom:25px;
+  .wireframe {
+    width: 90%;
+    justify-content: center;
+    margin-bottom: 25px;
+  }
 
+  .wireframes2 {
+    margin-bottom: -50px;
+  }
 
-}
+  .sprinkle_wire {
+    width: 90%;
+  }
 
-.wireframes2 {
-  margin-bottom: -50px;
-}
+  .usebutton {
+    width: 50%;
+  }
 
-.sprinkle_wire {
-  width:90%;
-}
-
-.usebutton {
-  width:50%;
-
-}
-
-.paymentpages {
-  width:80%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+  .paymentpages {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   .styleguide {
     width: 313.02px;
@@ -929,44 +921,44 @@ h6 {
     height: 126.56px;
   }
 
-.sidebar1 {
-  flex-wrap: wrap;
-}
+  .sidebar1 {
+    flex-wrap: wrap;
+  }
 
-#preference .sidebarpic{
-width:70%;
-margin-bottom:-50px;
-}
+  #preference .sidebarpic {
+    width: 70%;
+    margin-bottom: -50px;
+  }
 
-#preference .menus {
-  width:70%;
-  margin-bottom:-50px;
-}
+  #preference .menus {
+    width: 70%;
+    margin-bottom: -50px;
+  }
 
-#preference .infoghipic {
-  width:70%;
-  margin-bottom:-50px;
-}
+  #preference .infoghipic {
+    width: 70%;
+    margin-bottom: -50px;
+  }
 
-.menustyle {
-  flex-wrap: wrap;
-}
+  .menustyle {
+    flex-wrap: wrap;
+  }
 
-.infohigh {
-  flex-wrap: wrap;
-}
+  .infohigh {
+    flex-wrap: wrap;
+  }
 
-.mockup {
-  width: 386px;
-  height: 243px;
-  margin-top:25px;
-}
+  .mockup {
+    width: 386px;
+    height: 243px;
+    margin-top: 25px;
+  }
 
-#testing2 .sprinkle_img2 {
-  width: 90%;
-  margin-top:-100px;
-  margin-bottom:-100px;
-}
+  #testing2 .sprinkle_img2 {
+    width: 90%;
+    margin-top: -100px;
+    margin-bottom: -100px;
+  }
 }
 
 /*--Competitive Analysis--*/
@@ -1364,5 +1356,5 @@ margin-bottom:-50px;
   font-size: 2.0em;
   margin-left: 50px;
   margin-right: 50px;
-  line-height:40px;
+  line-height: 40px;
 }
