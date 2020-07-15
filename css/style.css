@@ -395,7 +395,7 @@ footer p {
   text-decoration: none;
 }
 
-#recentcaseL .button_words:hover  {
+#recentcaseL .button_words:hover {
   color: #D90368;
 }
 
@@ -544,7 +544,7 @@ footer p {
   #profile_details p {
     display: block;
     width: 80%;
-    font-size: 1.4em;
+    font-size: 1.6em;
     text-align: center;
     justify-content: center;
     margin-left: auto;
@@ -860,6 +860,7 @@ h6 {
 }
 
 @media only screen and (max-width: 500px) {
+
   .tab {
     height: 40px;
   }
@@ -870,6 +871,10 @@ h6 {
 
   .facts {
     flex-wrap: wrap;
+  }
+
+  .myrole, .deliverables, .tools {
+    margin-bottom: 20px;
   }
 
   .surveybutton {
