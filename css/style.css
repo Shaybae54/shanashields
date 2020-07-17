@@ -26,6 +26,7 @@ h1 {
   font-weight: normal;
   line-height: 22px;
   font-size: 6.4em;
+  color: #291720;
 }
 
 h2 {
@@ -33,6 +34,7 @@ h2 {
   font-weight: bold;
   line-height: 22px;
   font-size: 4.8em;
+  color: #291720;
 }
 
 h3 {
@@ -40,6 +42,7 @@ h3 {
   font-weight: bold;
   line-height: 22px;
   font-size: 3.6em;
+  color: #291720;
 }
 
 h4 {
@@ -50,6 +53,7 @@ h4 {
 
 p {
   font-family: Didact Gothic;
+  color: #291720;
 }
 
 /*buttons*/
@@ -288,6 +292,11 @@ footer p {
     height: 410px;
     left: 619px;
     top: 182px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+
   }
 }
 
@@ -579,12 +588,14 @@ footer p {
 
 h6 {
   font-family: Didact Gothic;
+  color: #291720;
 }
 
 .sections p {
   font-size: 20px;
   line-height: 40px;
   margin: 50px;
+  text-align: center;
 }
 
 /*--Protoype Hero Unit--*/
@@ -838,8 +849,9 @@ h6 {
 .surveybutton {
   width: 250px;
   margin-top: 25px;
-  margin-bottom: 55px;
-  margin-left: 39%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .surveybutton a {
@@ -971,6 +983,15 @@ h6 {
     flex-wrap: wrap;
   }
 
+  #branding p {
+    margin-left: 50px;
+    margin-right:50px;
+  }
+
+  #preference p {
+    text-align: center;
+  }
+
   #preference .sidebarpic {
     width: 70%;
     margin-bottom: -50px;
@@ -1000,11 +1021,160 @@ h6 {
     margin-top: 25px;
   }
 
+  #hifi p {
+    margin-left: 50px !important;
+    margin-right: 50px !important;
+  }
+
   #testing2 .sprinkle_img2 {
     width: 90%;
     margin-top: -100px;
     margin-bottom: -100px;
   }
+
+  #testing2 p {
+    margin-left: 50px !important;
+    margin-right: 50px !important;
+  }
+
+  #reflect h3 {
+    font-size: 1.5em;
+  }
+
+  .reflections {
+    font-size: 2.0em;
+    margin-left: 50px;
+    margin-right:50px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+
+.sections p{
+  font-size: 2.4em;
+  line-height: 40px;
+  margin: 50px;
+  text-align: center;
+}
+
+#casedetails .myrole h2{
+  font-size: 3.2em;
+  text-align: center;
+}
+
+#casedetails .deliverables h2 {
+  font-size: 3.2em;
+}
+#casedetails .tools h2 {
+  font-size: 3.2em;
+}
+#casedetails .myrole h6 {
+  font-size: 2.4em;
+  text-align: center;
+}
+
+#casedetails .deliverables h6 {
+  font-size: 2.4em;
+}
+
+#casedetails .tools h6 {
+  font-size: 2.4em;
+
+}
+
+#problem p {
+  width: 894px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#solution p {
+  width: 894px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p.caintro {
+  width: 894px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#personas p {
+  width: 894px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#stories p {
+  width: 894px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+p.flows1 {
+  width: 894px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sitemaps p {
+  width:500px;
+}
+#wire p {
+  width: 894px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#usability1 p {
+  width:894px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#branding p {
+  width: 894px !important;
+  font-size: 2.4em !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#hifi p {
+  width: 894px !important;
+  font-size: 2.4em !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#testing2 p {
+  width: 894px;
+  text-align: center;
+  font-size:2.4em !important;
+}
+.reflections p {
+  font-size: 2.4em !important;
+  width:894px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 }
 
 /*--Competitive Analysis--*/
@@ -1203,8 +1373,10 @@ h6 {
 #branding p {
   font-size: 2.0em;
   line-height: 40px;
-  margin: 50px;
-  justify-content: center;
+  margin-top:50px;
+  margin-bottom:50px;
+  text-align: center;
+
 }
 
 .sprinklelogo {
@@ -1346,8 +1518,13 @@ h6 {
 #hifi p {
   font-size: 2.0em;
   line-height: 40px;
-  margin: 50px;
-  justify-content: center;
+  margin-top:25px;
+  margin-bottom:25px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 /*--Usability Round 2--*/
@@ -1360,11 +1537,12 @@ h6 {
 }
 
 #testing2 p {
-  font-size: 2.0em;
   line-height: 40px;
-  margin-left: 50px;
-  margin-right: 50px;
-  justify-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2.0em;
+  text-align: center;
 }
 
 .usebuttons {
@@ -1403,8 +1581,6 @@ h6 {
 
 /*--Reflections--*/
 .reflections p {
-  font-size: 2.0em;
-  margin-left: 50px;
-  margin-right: 50px;
   line-height: 40px;
+  text-align: center;
 }
