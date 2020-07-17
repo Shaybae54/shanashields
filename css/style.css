@@ -275,7 +275,7 @@ footer p {
   font-size: 24px;
   line-height: 35px;
   text-align: center;
-  margin-top:50px;
+  margin-top: 50px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -299,9 +299,7 @@ footer p {
   }
 }
 
-@media only screen and (min-width: 1024px) {
-
-  }
+@media only screen and (min-width: 1024px) {}
 }
 
 @media only screen and (max-width: 500px) {
@@ -391,7 +389,6 @@ footer p {
   text-align: right;
   margin: 0 auto;
 }
-
 
 #recentcaseL .button_words {
   font-family: Montserrat;
@@ -873,7 +870,6 @@ h6 {
 }
 
 @media only screen and (max-width: 500px) {
-
   .tab {
     height: 40px;
   }
@@ -986,7 +982,7 @@ h6 {
 
   #branding p {
     margin-left: 50px;
-    margin-right:50px;
+    margin-right: 50px;
   }
 
   #preference p {
@@ -1045,141 +1041,144 @@ h6 {
   .reflections {
     font-size: 2.0em;
     margin-left: 50px;
-    margin-right:50px;
+    margin-right: 50px;
   }
 }
 
 @media only screen and (min-width: 1025px) {
+  #case-header {
+    display: flex !important;
+  }
 
-#case-header {
-  display: flex !important;
-}
+  .work p {
+    font-size: 2.4em;
+    line-height: 40px;
+    margin: 50px;
+    text-align: center;
+  }
 
-.work p{
-  font-size: 2.4em;
-  line-height: 40px;
-  margin: 50px;
-  text-align: center;
-}
+  #casedetails .myrole h2 {
+    font-size: 3.2em;
+    text-align: center;
+  }
 
-#casedetails .myrole h2{
-  font-size: 3.2em;
-  text-align: center;
-}
+  #casedetails .deliverables h2 {
+    font-size: 3.2em;
+  }
 
-#casedetails .deliverables h2 {
-  font-size: 3.2em;
-}
-#casedetails .tools h2 {
-  font-size: 3.2em;
-}
-#casedetails .myrole h6 {
-  font-size: 2.4em;
-  text-align: center;
-}
+  #casedetails .tools h2 {
+    font-size: 3.2em;
+  }
 
-#casedetails .deliverables h6 {
-  font-size: 2.4em;
-}
+  #casedetails .myrole h6 {
+    font-size: 2.4em;
+    text-align: center;
+  }
 
-#casedetails .tools h6 {
-  font-size: 2.4em;
+  #casedetails .deliverables h6 {
+    font-size: 2.4em;
+  }
 
-}
+  #casedetails .tools h6 {
+    font-size: 2.4em;
+  }
 
-#problem p {
-  width: 894px;
-  text-align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#solution p {
-  width: 894px;
-  text-align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-p.caintro {
-  width: 894px;
-  text-align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#personas p {
-  width: 894px;
-  text-align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#stories p {
-  width: 894px;
-  text-align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-p.flows1 {
-  width: 894px;
-  text-align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.sitemaps p {
-  width:500px;
-}
-#wire p {
-  width: 894px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#usability1 p {
-  width:894px;
+  #problem p {
+    width: 894px;
     text-align: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
+  }
 
-#branding p {
-  width: 894px !important;
-  font-size: 2.4em !important;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+  #solution p {
+    width: 894px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-#hifi p {
-  width: 894px !important;
-  font-size: 2.4em !important;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+  p.caintro {
+    width: 894px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-#testing2 p {
-  width: 894px;
-  text-align: center;
-  font-size:2.4em !important;
-}
-.reflections p {
-  font-size: 2.4em !important;
-  width:894px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+  #personas p {
+    width: 894px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #stories p {
+    width: 894px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  p.flows1 {
+    width: 894px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .sitemaps p {
+    width: 500px;
+  }
+
+  #wire p {
+    width: 894px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #usability1 p {
+    width: 894px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #branding p {
+    width: 894px !important;
+    font-size: 2.4em !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #hifi p {
+    width: 894px !important;
+    font-size: 2.4em !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #testing2 p {
+    width: 894px;
+    text-align: center;
+    font-size: 2.4em !important;
+  }
+
+  .reflections p {
+    font-size: 2.4em !important;
+    width: 894px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 /*--Competitive Analysis--*/
@@ -1378,10 +1377,9 @@ p.flows1 {
 #branding p {
   font-size: 2.0em;
   line-height: 40px;
-  margin-top:50px;
-  margin-bottom:50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   text-align: center;
-
 }
 
 .sprinklelogo {
@@ -1523,13 +1521,12 @@ p.flows1 {
 #hifi p {
   font-size: 2.0em;
   line-height: 40px;
-  margin-top:25px;
-  margin-bottom:25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
   text-align: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 /*--Usability Round 2--*/
@@ -1590,34 +1587,33 @@ p.flows1 {
   text-align: center;
 }
 
-@media (min-width: 768px) and (max-width: 1024px){
+@media (min-width: 768px) and (max-width: 1024px) {
 
-/*Intro page*/
-
-.bigname h1 {
+  /*Intro page*/
+  .bigname h1 {
     font-weight: normal;
     line-height: 22px;
     font-size: 6.4em;
     margin-left: -100px;
-}
+  }
 
-.bigname {
-  font-size:80%;
-  width:300px;
-  flex-wrap: wrap;
-  margin-left:35px;
-}
+  .bigname {
+    font-size: 80%;
+    width: 300px;
+    flex-wrap: wrap;
+    margin-left: 35px;
+  }
 
-.name {
-  flex-wrap: wrap;
-}
+  .name {
+    flex-wrap: wrap;
+  }
 
-.whoami {
-  font-size:1.6em;
-  width:250px;
-}
+  .whoami {
+    font-size: 1.6em;
+    width: 250px;
+  }
 
-.profile {
+  .profile {
     visibility: visible;
     position: absolute;
     width: 40%;
@@ -1627,16 +1623,16 @@ p.flows1 {
     z-index: 1;
   }
 
-    .diamond {
-        visibility: visible;
-        position: absolute;
-        width: 40%;
-        height: auto;
-        left: 429px;
-        top: 220px;
-    }
+  .diamond {
+    visibility: visible;
+    position: absolute;
+    width: 40%;
+    height: auto;
+    left: 429px;
+    top: 220px;
+  }
 
-    #recentcaseL h3 {
+  #recentcaseL h3 {
     color: #FFFFFF;
     width: 140px;
     height: 22px;
@@ -1648,9 +1644,9 @@ p.flows1 {
     letter-spacing: -0.0141176em;
     margin-left: 32%;
     margin-bottom: 20px;
-}
+  }
 
-.sprinkledeets p {
+  .sprinkledeets p {
     width: 300px;
     font-family: Didact Gothic;
     font-style: normal;
@@ -1660,69 +1656,66 @@ p.flows1 {
     color: #FFFFFF;
     text-align: left;
     margin-left: 25px;
-}
-
-/*About Me Page*/
-
-.aboutme h1 {
-      line-height: 22px;
-      font-size: 4.8em;
   }
 
-.aboutme h2 {
-  font-size: 3.6em;
-}
+  /*About Me Page*/
+  .aboutme h1 {
+    line-height: 22px;
+    font-size: 4.8em;
+  }
 
-.aboutme h3 {
-  font-size: 2.8em;
-}
+  .aboutme h2 {
+    font-size: 3.6em;
+  }
 
+  .aboutme h3 {
+    font-size: 2.8em;
+  }
 }
 
 /*Sprinkle Page*/
-
 #case-header {
-    flex: none;
-    display: block;
-    padding-left: 0;
-    padding-right: 0;
-  }
+  flex: none;
+  display: block;
+  padding-left: 0;
+  padding-right: 0;
+}
 
 .light_button {
-    margin-top:15px;
-  }
+  margin-top: 15px;
+}
 
-  .casestudy p {
-    display: block;
-    height: 100px;
-    font-size: 1.8em;
-    text-overflow: clip;
-    overflow: visible;
-    text-align: center;
-    justify-content: center;
-    margin: 0 auto;
-    padding-top: 5%;
-  }
+.casestudy p {
+  display: block;
+  height: 100px;
+  font-size: 1.8em;
+  text-overflow: clip;
+  overflow: visible;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 5%;
+}
 
-  .mobile-prototype {
-    max-width: 100%;
-    width: 70%;
-    height: 70%;
-    display: block;
-    text-align: right;
-    margin: 0 auto;
-    padding-top:60px;
-  }
+.mobile-prototype {
+  max-width: 100%;
+  width: 70%;
+  height: 70%;
+  display: block;
+  text-align: right;
+  margin: 0 auto;
+  padding-top: 60px;
+}
 
-  .buttons {
-    display: flex;
-    flex-direction: row;
-    align-self: center;
-    flex: 1;
-  }
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  flex: 1;
+}
 
 .sprinkle_pic {
-  width:90%;
+  width: 90%;
 }
 
 .companies {
@@ -1761,7 +1754,7 @@ p.flows1 {
 }
 
 .sprinkle_img2 {
-  width:90%
+  width: 90%
 }
 
 #hifi p {
@@ -1770,8 +1763,7 @@ p.flows1 {
 }
 
 #testing2 p {
-  margin-left:50px;
-  margin-right:50px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
-
 }
