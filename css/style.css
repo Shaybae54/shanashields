@@ -1052,7 +1052,7 @@ h6 {
 @media only screen and (min-width: 1025px) {
 
 #case-header {
-  display:  flex !important;
+  display: flex !important;
 }
 
 .work p{
