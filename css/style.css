@@ -9,7 +9,7 @@ html {
 
 body {
   background-color: #ffffff;
-  max-width: 1280px;
+  max-width: 100%;
   margin: 1rem, auto;
 
 }
@@ -327,7 +327,16 @@ footer p {
     margin-top: 60px;
     margin-left: auto;
     margin-right: auto;
+  }
 
+  .hi {
+    margin-left: 0 !important;
+  }
+
+  .bigname {
+    display: block;
+margin-left: auto;
+margin-right: auto;
   }
 }
 
