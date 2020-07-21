@@ -11,7 +11,6 @@ body {
   background-color: #ffffff;
   max-width: 100%;
   margin: 1rem, auto;
-
 }
 
 /*Fonts*/
@@ -24,7 +23,7 @@ body {
 }
 
 h1 {
-  font-family: Ubuntu;
+  font-family: Ubuntu, sans-serif;
   font-weight: normal;
   line-height: 22px;
   font-size: 6.4em;
@@ -32,7 +31,7 @@ h1 {
 }
 
 h2 {
-  font-family: Ubuntu;
+  font-family: Ubuntu, sans-serif;
   font-weight: bold;
   line-height: 22px;
   font-size: 4.8em;
@@ -40,7 +39,7 @@ h2 {
 }
 
 h3 {
-  font-family: Ubuntu;
+  font-family: Ubuntu, sans-serif;
   font-weight: bold;
   line-height: 22px;
   font-size: 3.6em;
@@ -48,13 +47,13 @@ h3 {
 }
 
 h4 {
-  font-family: Ubuntu;
+  font-family: Ubuntu sans-serif;
   line-height: 22px;
   font-size: 2.4em;
 }
 
 p {
-  font-family: Didact Gothic;
+  font-family: Didact Gothic, sans-serif;
   color: #291720;
 }
 
@@ -101,7 +100,7 @@ button:hover {
 }
 
 .navbar {
-  font-family: Ubuntu;
+  font-family: Ubuntu, sans-serif;
   font-style: normal;
   font-weight: bold;
   margin-top: 25px;
@@ -206,7 +205,7 @@ footer {
 footer h4 {
   color: #FFFFFF;
   text-align: center;
-  font-family: Ubuntu;
+  font-family: Ubuntu, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
@@ -218,7 +217,7 @@ footer p {
   color: #FFFFFF;
   font-size: 20px;
   text-align: center;
-  font-family: Ubuntu;
+  font-family: Ubuntu, sans-serif;
   font-style: normal;
   line-height: 167.23%;
 }
@@ -249,7 +248,7 @@ footer p {
   display: flex;
   flex-wrap: wrap;
   flex: 0;
-  font-family: 'autographyregular';
+  font-family: 'autographyregular', sans-serif;
   color: #FE7F2D;
   position: absolute;
   width: 155px;
@@ -272,7 +271,7 @@ footer p {
   height: 105px;
   left: 90px;
   top: 10px;
-  font-family: Didact Gothic;
+  font-family: Didact Gothic, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -337,8 +336,8 @@ footer p {
 
   .bigname {
     display: block;
-margin-left: auto;
-margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -358,7 +357,7 @@ margin-right: auto;
   color: #FFFFFF;
   width: 140px;
   height: 22px;
-  font-family: Ubuntu;
+  font-family: Ubuntu, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 3.6em;
@@ -370,7 +369,7 @@ margin-right: auto;
 
 .sprinkledeets p {
   width: 528px;
-  font-family: Didact Gothic;
+  font-family: Didact Gothic, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 2.4em;
@@ -489,7 +488,7 @@ margin-right: auto;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  font-family: 'autographyregular';
+  font-family: 'autographyregular', sans-serif;
   color: #FE7F2D;
 }
 
@@ -582,7 +581,7 @@ margin-right: auto;
 }
 
 h6 {
-  font-family: Didact Gothic;
+  font-family: Didact Gothic, sans-serif;
   color: #291720;
 }
 
@@ -671,6 +670,7 @@ h6 {
   margin-right: auto;
 }
 
+
 @media only screen and (max-width: 500px) {
   .project .navbar {
     background: #860263;
@@ -742,7 +742,7 @@ h6 {
 }
 
 #casedetails .myrole h2 {
-  font-family: Ubuntu;
+  font-family: Ubuntu, sans-serif;
   font-size: 2.4em;
   font-weight: 500;
   margin-bottom: 10px;
@@ -754,7 +754,7 @@ h6 {
 }
 
 #casedetails .deliverables h2 {
-  font-family: Ubuntu;
+  font-family: Ubuntu, sans-serif;
   font-size: 2.4em;
   font-weight: 500;
   margin-bottom: 10px;
@@ -768,7 +768,7 @@ h6 {
 }
 
 #casedetails .tools h2 {
-  font-family: Ubuntu;
+  font-family: Ubuntu, sans-serif;
   font-size: 2.4em;
   font-weight: 500;
   margin-bottom: 10px;
@@ -780,6 +780,7 @@ h6 {
   line-height: 167.23%;
   font-size: 18px;
 }
+
 
 /*---Problem Section--*/
 .problem p {
@@ -928,7 +929,9 @@ h6 {
 
   .sitemaps {
     flex-wrap: wrap;
+    margin-right:0 !important;
   }
+
 
   .sketch {
     display: block;
@@ -1040,6 +1043,16 @@ h6 {
     margin-left: 50px;
     margin-right: 50px;
   }
+  .tab {
+    display: none;
+  }
+
+.header h2 {
+    text-align: center;
+    color: #FE7F2D;
+    margin:50px;
+    line-height: 40px;
+  }
 }
 
 @media only screen and (min-width: 1025px) {
@@ -1050,6 +1063,10 @@ h6 {
   p.casestudy {
     font-size: 2.8em;
   }
+
+.header h2 {
+  display: none;
+}
 
   #preference p {
     font-size: 1.2em;
@@ -1588,6 +1605,8 @@ h6 {
   text-align: center;
 }
 
+
+
 @media (min-width: 768px) and (max-width: 1024px) {
 
   /*Intro page*/
@@ -1637,7 +1656,7 @@ h6 {
     color: #FFFFFF;
     width: 140px;
     height: 22px;
-    font-family: Ubuntu;
+    font-family: Ubuntu, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 3.6em;
@@ -1649,7 +1668,7 @@ h6 {
 
   .sprinkledeets p {
     width: 300px;
-    font-family: Didact Gothic;
+    font-family: Didact Gothic, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 1.6em;
@@ -1672,98 +1691,103 @@ h6 {
   .aboutme h3 {
     font-size: 2.8em;
   }
-/*hoooooollllldddd*/
-/*Sprinkle Page*/
-#case-header {
-  flex: none;
-  display: block;
-  padding-left: 0;
-  padding-right: 0;
-}
 
-.light_button {
-  margin-top: 15px;
-}
+  /*hoooooollllldddd*/
+  /*Sprinkle Page*/
+  #case-header {
+    flex: none;
+    display: block;
+    padding-left: 0;
+    padding-right: 0;
+  }
 
-.casestudy p {
-  display: block;
-  height: 100px;
-  font-size: 1.8em;
-  text-overflow: clip;
-  overflow: visible;
-  text-align: center;
-  justify-content: center;
-  margin: 0 auto;
-  padding-top: 5%;
-}
+  .light_button {
+    margin-top: 15px;
+  }
 
-.mobile-prototype {
-  max-width: 100%;
-  width: 70%;
-  height: 70%;
-  display: block;
-  text-align: right;
-  margin: 0 auto;
-  padding-top: 60px;
-}
+  .casestudy p {
+    display: block;
+    height: 100px;
+    font-size: 1.8em;
+    text-overflow: clip;
+    overflow: visible;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 5%;
+  }
 
-.buttons {
-  display: flex;
-  flex-direction: row;
-  align-self: center;
-  flex: 1;
-}
+  .mobile-prototype {
+    max-width: 100%;
+    width: 70%;
+    height: 70%;
+    display: block;
+    text-align: right;
+    margin: 0 auto;
+    padding-top: 60px;
+  }
 
-.sprinkle_pic {
-  width: 90%;
-}
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    flex: 1;
+  }
 
-.companies {
-  flex-wrap: wrap;
-  justify-content: center;
-}
+  .sprinkle_pic {
+    width: 90%;
+  }
 
-.personas {
-  flex-wrap: wrap;
-}
+  .header h2{
+    display: none;
+  }
 
-.sitemaps {
-  flex-wrap: wrap;
-}
+  .companies {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
-.sitepic {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+  .personas {
+    flex-wrap: wrap;
+  }
 
-.wireframes {
-  justify-content: center;
-}
+  .sitemaps {
+    flex-wrap: wrap;
+  }
 
-.sidebar1 {
-  flex-wrap: wrap;
-}
+  .sitepic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-.menustyle {
-  flex-wrap: wrap;
-}
+  .wireframes {
+    justify-content: center;
+  }
 
-.infohigh {
-  flex-wrap: wrap;
-}
+  .sidebar1 {
+    flex-wrap: wrap;
+  }
 
-.sprinkle_img2 {
-  width: 90%
-}
+  .menustyle {
+    flex-wrap: wrap;
+  }
 
-#hifi p {
-  margin-left: 50px;
-  margin-right: 50px;
-}
+  .infohigh {
+    flex-wrap: wrap;
+  }
 
-#testing2 p {
-  margin-left: 50px;
-  margin-right: 50px;
-}
+  .sprinkle_img2 {
+    width: 90%
+  }
+
+  #hifi p {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  #testing2 p {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
 }
