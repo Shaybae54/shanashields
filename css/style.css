@@ -670,7 +670,6 @@ h6 {
   margin-right: auto;
 }
 
-
 @media only screen and (max-width: 500px) {
   .project .navbar {
     background: #860263;
@@ -780,7 +779,6 @@ h6 {
   line-height: 167.23%;
   font-size: 18px;
 }
-
 
 /*---Problem Section--*/
 .problem p {
@@ -929,9 +927,8 @@ h6 {
 
   .sitemaps {
     flex-wrap: wrap;
-    margin-right:0 !important;
+    margin-right: 0 !important;
   }
-
 
   .sketch {
     display: block;
@@ -1043,14 +1040,15 @@ h6 {
     margin-left: 50px;
     margin-right: 50px;
   }
+
   .tab {
     display: none;
   }
 
-.header h2 {
+  .header h2 {
     text-align: center;
     color: #FE7F2D;
-    margin:50px;
+    margin: 50px;
     line-height: 40px;
   }
 }
@@ -1064,9 +1062,9 @@ h6 {
     font-size: 2.8em;
   }
 
-.header h2 {
-  display: none;
-}
+  .header h2 {
+    display: none;
+  }
 
   #preference p {
     font-size: 1.2em;
@@ -1605,8 +1603,6 @@ h6 {
   text-align: center;
 }
 
-
-
 @media (min-width: 768px) and (max-width: 1024px) {
 
   /*Intro page*/
@@ -1738,7 +1734,7 @@ h6 {
     width: 90%;
   }
 
-  .header h2{
+  .header h2 {
     display: none;
   }
 
