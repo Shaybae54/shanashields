@@ -9,7 +9,9 @@ html {
 
 body {
   background-color: #ffffff;
-  width: 100%
+  max-width: 1280px;
+  margin: 1rem, auto;
+
 }
 
 /*Fonts*/
@@ -305,7 +307,7 @@ footer p {
   }
 
   #hero-unit {
-    height: 750px;
+    height: 600px;
   }
 
   .whoami {
@@ -313,30 +315,19 @@ footer p {
     overflow: visible;
     text-overflow: clip;
     margin: 0;
-    display: inline-flex;
-    justify-content: center;
+    margin-top: 25px;
   }
 
   .name h1 {
     overflow: visible;
     text-overflow: clip;
-    width: 60%;
-    display: inline-flex;
-    text-align: left;
-  }
-
-  .hi h1 {
-    margin-left: 5%;
-    width: 300px;
-  }
-
-  .name h1 {
     display: block;
     margin: 0;
     position: inherit;
     margin-top: 60px;
-    padding-left: 30%;
-    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
   }
 }
 
