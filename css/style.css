@@ -984,6 +984,7 @@ h6 {
 
   #preference p {
     text-align: center;
+    font-size: 1.0em;
   }
 
   #preference .sidebarpic {
@@ -1032,10 +1033,10 @@ h6 {
   }
 
   #reflect h3 {
-    font-size: 1.5em;
+    font-size: 2.5em;
   }
 
-  .reflections {
+  .reflections p{
     font-size: 2.0em;
     margin-left: 50px;
     margin-right: 50px;
