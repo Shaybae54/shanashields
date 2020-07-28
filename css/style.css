@@ -11,7 +11,7 @@ body {
   background-color: #ffffff;
   max-width: 100%;
   margin: 1rem, auto;
-} 
+}
 
 /*Fonts*/
 @font-face {
@@ -1036,7 +1036,7 @@ h6 {
     font-size: 2.5em;
   }
 
-  .reflections p {
+  .reflections p{
     font-size: 2.0em;
     margin-left: 50px;
     margin-right: 50px;
@@ -1299,6 +1299,47 @@ h6 {
 .sitepic {
   display: flex;
   flex-direction: column;
+}
+
+#flows .button_words {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.flowbutton {
+  width: 250px;
+  margin-bottom: 55px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.sitemapbutton {
+  width: 250px;
+  margin-bottom: 55px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.flowbutton a {
+  text-decoration: none;
+}
+
+#flows .flowbutton:hover {
+  color: #D90368;
+}
+
+#flows button:hover {
+  width: 250px;
+  height: 50px;
+  border-radius: 30px;
+  background: #F26103;
+  border-color: #D90368;
+  border-style: none;
 }
 
 /*--Wireframing--*/
