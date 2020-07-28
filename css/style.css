@@ -982,6 +982,10 @@ h6 {
     margin-right: 50px;
   }
 
+#preference h2 {
+  margin-bottom:-10px;
+}
+
   #preference p {
     text-align: center;
     font-size: 1.0em;
@@ -989,16 +993,19 @@ h6 {
 
   #preference .sidebarpic {
     width: 70%;
+    margin-top:-50px;
     margin-bottom: -50px;
   }
 
   #preference .menus {
     width: 70%;
+    margin-top:-50px;
     margin-bottom: -50px;
   }
 
   #preference .infoghipic {
     width: 70%;
+    margin-top:-50px;
     margin-bottom: -50px;
   }
 
@@ -1023,7 +1030,6 @@ h6 {
 
   #testing2 .sprinkle_img2 {
     width: 90%;
-    margin-top: -100px;
     margin-bottom: -100px;
   }
 
@@ -1051,7 +1057,9 @@ h6 {
     color: #FE7F2D;
     margin: 50px;
     line-height: 40px;
+
   }
+
 }
 
 @media only screen and (min-width: 1025px) {
@@ -1158,6 +1166,7 @@ h6 {
     margin-left: auto;
     margin-right: auto;
   }
+
 
   #usability1 p {
     width: 894px;
@@ -1318,19 +1327,25 @@ h6 {
 .wireframes {
   display: flex;
   flex-direction: row;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 80px;
+  margin-right: 80px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .wireframe1 {
+
   display: flex;
   flex-direction: column;
 }
 
 .wireframe2 {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+}
+
+.wireframes2 img{
+  width:107%;
 }
 
 /*--Usability Testing--*/
