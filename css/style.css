@@ -982,9 +982,9 @@ h6 {
     margin-right: 50px;
   }
 
-#preference h2 {
-  margin-bottom:-10px;
-}
+  #preference h2 {
+    margin-bottom: -10px;
+  }
 
   #preference p {
     text-align: center;
@@ -993,19 +993,19 @@ h6 {
 
   #preference .sidebarpic {
     width: 70%;
-    margin-top:-50px;
+    margin-top: -50px;
     margin-bottom: -50px;
   }
 
   #preference .menus {
     width: 70%;
-    margin-top:-50px;
+    margin-top: -50px;
     margin-bottom: -50px;
   }
 
   #preference .infoghipic {
     width: 70%;
-    margin-top:-50px;
+    margin-top: -50px;
     margin-bottom: -50px;
   }
 
@@ -1057,9 +1057,7 @@ h6 {
     color: #FE7F2D;
     margin: 50px;
     line-height: 40px;
-
   }
-
 }
 
 @media only screen and (min-width: 1025px) {
@@ -1166,7 +1164,6 @@ h6 {
     margin-left: auto;
     margin-right: auto;
   }
-
 
   #usability1 p {
     width: 894px;
@@ -1310,6 +1307,47 @@ h6 {
   flex-direction: column;
 }
 
+#flows .button_words {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.flowbutton {
+  width: 250px;
+  margin-bottom: 55px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.sitemapbutton {
+  width: 250px;
+  margin-bottom: 55px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.flowbutton a {
+  text-decoration: none;
+}
+
+#flows .flowbutton:hover {
+  color: #D90368;
+}
+
+#flows button:hover {
+  width: 250px;
+  height: 50px;
+  border-radius: 30px;
+  background: #F26103;
+  border-color: #D90368;
+  border-style: none;
+}
+
 /*--Wireframing--*/
 .sketches {
   display: flex;
@@ -1334,7 +1372,6 @@ h6 {
 }
 
 .wireframe1 {
-
   display: flex;
   flex-direction: column;
 }
@@ -1344,8 +1381,8 @@ h6 {
   flex-direction: row;
 }
 
-.wireframes2 img{
-  width:107%;
+.wireframes2 img {
+  width: 107%;
 }
 
 /*--Usability Testing--*/
