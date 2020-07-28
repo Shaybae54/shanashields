@@ -982,6 +982,10 @@ h6 {
     margin-right: 50px;
   }
 
+  #preference h2 {
+    margin-bottom: -10px;
+  }
+
   #preference p {
     text-align: center;
     font-size: 1.0em;
@@ -990,6 +994,7 @@ h6 {
   #preference .sidebarpic {
     width: 70%;
     margin-bottom: -50px;
+    margin-top: -50px; 966
   }
 
   #preference .menus {
@@ -1023,7 +1028,6 @@ h6 {
 
   #testing2 .sprinkle_img2 {
     width: 90%;
-    margin-top: -100px;
     margin-bottom: -100px;
   }
 
@@ -1359,21 +1363,25 @@ h6 {
 .wireframes {
   display: flex;
   flex-direction: row;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 80px;
+  margin-right: 80px;
   flex-wrap: wrap;
   justify-content: center;
 }
 
 .wireframe1 {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .wireframe2 {
   display: flex;
   flex-direction: column;
 }
+
+.wireframes2 img {
+  width: 107%;
+  flex-direction: column;
 
 /*--Usability Testing--*/
 .sprinkle_wire {
