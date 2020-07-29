@@ -119,17 +119,6 @@ button:hover {
   line-height: 70px;
 }
 
-.navbar {
-
-        ;
-      z-index: 20;
-      top: 0;
-      right: 0;
-      width: 100%;
-
-      opacity:.8;
-}
-
 .navbar a:hover {
   color: #FE7F2D;
 }
