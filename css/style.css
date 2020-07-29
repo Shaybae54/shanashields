@@ -119,6 +119,17 @@ button:hover {
   line-height: 70px;
 }
 
+.navbar {
+
+        ;
+      z-index: 20;
+      top: 0;
+      right: 0;
+      width: 100%;
+
+      opacity:.8;
+}
+
 .navbar a:hover {
   color: #FE7F2D;
 }
@@ -590,6 +601,10 @@ h6 {
   line-height: 40px;
   margin: 50px;
   text-align: center;
+}
+
+img {
+  max-width:100%;
 }
 
 /*--Protoype Hero Unit--*/
