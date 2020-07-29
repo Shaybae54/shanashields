@@ -1842,3 +1842,13 @@ img {
     margin-right: 50px;
   }
 }
+
+/*Contact Page*/
+
+.submit button{
+  width: 50px;
+}
+
+#form {
+  height:200px;
+}
