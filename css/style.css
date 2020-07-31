@@ -1,1288 +1,1269 @@
 /* Global*/
 * {
-  box-sizing: border-box;
+box-sizing: border-box;
 }
 
 html {
-  font-size: 10px;
+font-size: 10px;
 }
 
 body {
-  background-color: #ffffff;
-  max-width: 100%;
-  margin: 1rem auto;
+background-color: #ffffff;
+max-width: 100%;
+margin: 1rem auto;
 }
 
 /*Fonts*/
 @font-face {
-  font-family: 'autographyregular';
-  src: url('./fonts/autography-webfont.woff2') format('woff2'),
-    url('./fonts/autography-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
+font-family: 'autographyregular';
+src: url('./fonts/autography-webfont.woff2') format('woff2'),
+  url('./fonts/autography-webfont.woff') format('woff');
+font-weight: normal;
+font-style: normal;
 }
 
 h1 {
-  font-family: Ubuntu, sans-serif;
-  font-weight: normal;
-  line-height: 22px;
-  font-size: 6.4em;
-  color: #291720;
+font-family: Ubuntu, sans-serif;
+font-weight: normal;
+line-height: 22px;
+font-size: 6.4em;
+color: #291720;
 }
 
 h2 {
-  font-family: Ubuntu, sans-serif;
-  font-weight: bold;
-  line-height: 22px;
-  font-size: 4.8em;
-  color: #291720;
+font-family: Ubuntu, sans-serif;
+font-weight: bold;
+line-height: 22px;
+font-size: 4.8em;
+color: #291720;
 }
 
 h3 {
-  font-family: Ubuntu, sans-serif;
-  font-weight: bold;
-  line-height: 22px;
-  font-size: 3.6em;
-  color: #291720;
+font-family: Ubuntu, sans-serif;
+font-weight: bold;
+line-height: 22px;
+font-size: 3.6em;
+color: #291720;
 }
 
 h4 {
-  font-family: Ubuntu sans-serif;
-  line-height: 22px;
-  font-size: 2.4em;
+font-family: Ubuntu sans-serif;
+line-height: 22px;
+font-size: 2.4em;
 }
 
 p {
-  font-family: Didact Gothic, sans-serif;
-  color: #291720;
+font-family: Didact Gothic, sans-serif;
+color: #291720;
 }
 
 /*buttons*/
 button {
-  width: 170px;
-  height: 50px;
-  border-radius: 30px;
-  background: #D90368;
-  border-style: none;
+width: 170px;
+height: 50px;
+border-radius: 30px;
+background: #D90368;
+border-style: none;
 }
 
 .pink_button {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  color: #FFFFFF;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+color: #FFFFFF;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 
 .button_words:hover {
-  color: #D90368;
+color: #D90368;
 }
 
 button:hover {
-  width: 170px;
-  height: 50px;
-  border-radius: 30px;
-  background: #FFFFFF;
-  border-color: #D90368;
-  border-style: solid;
+width: 170px;
+height: 50px;
+border-radius: 30px;
+background: #FFFFFF;
+border-color: #D90368;
+border-style: solid;
 }
 
 /*Navigation Bar*/
 .logo {
-<<<<<<< HEAD
-=======
-
->>>>>>> e012d7679821c094df777bf0c28cb5eed5c64190
-  height: 60px;
-  float: left;
-  margin-top: -10px;
-  margin-left: 30px;
+height: 60px;
+float: left;
+margin-top: -10px;
+margin-left: 30px;
 }
 
-<<<<<<< HEAD
 .mobile_logo {
-  display: none;
+display: none;
 }
-=======
->>>>>>> e012d7679821c094df777bf0c28cb5eed5c64190
 
 .navbar {
-  font-family: Ubuntu, sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  margin-top: 25px;
-  font-size: 24px;
-  height: 70px;
-  line-height: 70px;
-  text-align: right;
-  letter-spacing: -0.0141176em;
+font-family: Ubuntu, sans-serif;
+font-style: normal;
+font-weight: bold;
+margin-top: 25px;
+font-size: 24px;
+height: 70px;
+line-height: 70px;
+text-align: right;
+letter-spacing: -0.0141176em;
 }
 
 .menu a {
-  clear: right;
-  color: #820263;
-  text-decoration: none;
-  margin: 0 10px;
-  line-height: 70px;
+clear: right;
+color: #820263;
+text-decoration: none;
+margin: 0 10px;
+line-height: 70px;
 }
 
 .navbar a:hover {
-  color: #FE7F2D;
+color: #FE7F2D;
 }
 
 .menu {
-  margin: 0 30px 0 0;
+margin: 0 30px 0 0;
 }
 
 label {
-  margin: 0 40px 0 0;
-  font-size: 26px;
-  color: #820263;
-  line-height: 70px;
-  display: none;
-  width: 26px;
-  float: right;
+margin: 0 40px 0 0;
+font-size: 26px;
+color: #820263;
+line-height: 70px;
+display: none;
+width: 26px;
+float: right;
 }
 
 #toggle {
-  display: none;
+display: none;
 }
 
 /*footer*/
 footer {
-  position: relative;
-  width: 100%;
-  height: 300px;
-  left: 0px;
-  background: #820263;
-  bottom: -10px;
-  margin-top: 100px;
+position: relative;
+width: 100%;
+height: 300px;
+left: 0px;
+background: #820263;
+bottom: -10px;
+margin-top: 100px;
 }
 
 .footer-links a {
-  color: #FFFFFF;
-  text-decoration: none;
-  margin-right: 10px;
+color: #FFFFFF;
+text-decoration: none;
+margin-right: 10px;
 }
 
 .footer-links {
-  font-size: 24px;
-  text-align: center;
-  position: relative;
-  padding-top: 20px;
+font-size: 24px;
+text-align: center;
+position: relative;
+padding-top: 20px;
 }
 
 footer h4 {
-  color: #FFFFFF;
-  text-align: center;
-  font-family: Ubuntu, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 167.23%;
-  padding-top: 43px;
+color: #FFFFFF;
+text-align: center;
+font-family: Ubuntu, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 167.23%;
+padding-top: 43px;
 }
 
 footer p {
-  color: #FFFFFF;
-  font-size: 20px;
-  text-align: center;
-  font-family: Ubuntu, sans-serif;
-  font-style: normal;
-  line-height: 167.23%;
+color: #FFFFFF;
+font-size: 20px;
+text-align: center;
+font-family: Ubuntu, sans-serif;
+font-style: normal;
+line-height: 167.23%;
 }
 
 /*Hero Unit*/
 #hero-unit {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 550px;
-  left: 0px;
-  background-color: #F7F7F7;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+display: flex;
+flex-direction: column;
+width: 100%;
+height: 550px;
+left: 0px;
+background-color: #F7F7F7;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
 }
 
 #hero-unit .hi {
-  display: flex;
-  flex-direction: column;
-  height: 22px;
-  left: 136px;
-  margin-top: 150px;
-  margin-left: 135px;
-  letter-spacing: -0.0141176em;
+display: flex;
+flex-direction: column;
+height: 22px;
+left: 136px;
+margin-top: 150px;
+margin-left: 135px;
+letter-spacing: -0.0141176em;
 }
 
 .name h1 {
-  display: flex;
-  flex-wrap: wrap;
-  flex: 0;
-  font-family: 'autographyregular', sans-serif;
-  color: #FE7F2D;
-  position: absolute;
-  width: 155px;
-  height: 22px;
-  left: 326px;
-  top: 255px;
+display: flex;
+flex-wrap: wrap;
+flex: 0;
+font-family: 'autographyregular', sans-serif;
+color: #FE7F2D;
+position: absolute;
+width: 155px;
+height: 22px;
+left: 326px;
+top: 255px;
 }
 
 .profile {
-  visibility: collapse;
+visibility: collapse;
 }
 
 .diamond {
-  visibility: collapse;
+visibility: collapse;
 }
 
 .whoami {
-  position: relative;
-  width: 434px;
-  height: 105px;
-  left: 90px;
-  top: 10px;
-  font-family: Didact Gothic, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 35px;
-  text-align: center;
-  margin-top: 50px;
+position: relative;
+width: 434px;
+height: 105px;
+left: 90px;
+top: 10px;
+font-family: Didact Gothic, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 35px;
+text-align: center;
+margin-top: 50px;
 }
 
 /*Case Study*/
 #recentcaseL {
-  padding: 5rem 5rem 5rem 10%;
-  height: 80%;
-  width: 90%;
-  margin: 0 auto;
-  margin-top: 100px;
-  display: flex;
-  background-image: linear-gradient(to right, #FE7F2D, #FC7D2B);
-  align-items: center;
+padding: 5rem 5rem 5rem 10%;
+height: 80%;
+width: 90%;
+margin: 0 auto;
+margin-top: 100px;
+display: flex;
+background-image: linear-gradient(to right, #FE7F2D, #FC7D2B);
+align-items: center;
 }
 
 #recentcaseL h3 {
-  color: #FFFFFF;
-  width: 140px;
-  height: 22px;
-  font-family: Ubuntu, sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 3.6em;
-  line-height: 22px;
-  letter-spacing: -0.0141176em;
-  margin-left: 39%;
-  margin-bottom: 20px;
+color: #FFFFFF;
+width: 140px;
+height: 22px;
+font-family: Ubuntu, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 3.6em;
+line-height: 22px;
+letter-spacing: -0.0141176em;
+margin-left: 39%;
+margin-bottom: 20px;
 }
 
 .sprinkledeets p {
-  width: 528px;
-  font-family: Didact Gothic, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 2.4em;
-  line-height: 167.23%;
-  color: #FFFFFF;
-  text-align: left;
-  margin-left: 25px;
+width: 528px;
+font-family: Didact Gothic, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 2.4em;
+line-height: 167.23%;
+color: #FFFFFF;
+text-align: left;
+margin-left: 25px;
 }
 
 .phonepic {
-  max-width: 60%;
-  max-height: 60%;
-  display: block;
-  text-align: right;
-  margin: 0 auto;
+max-width: 60%;
+max-height: 60%;
+display: block;
+text-align: right;
+margin: 0 auto;
 }
 
 #recentcaseL .button_words {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  color: #FFFFFF;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+color: #FFFFFF;
 }
 
 .pink_button a {
-  text-decoration: none;
+text-decoration: none;
 }
 
 #recentcaseL .button_words:hover {
-  color: #D90368;
+color: #D90368;
 }
 
 #recentcaseL .pink_button:hover {
-  width: 170px;
-  height: 50px;
-  border-radius: 30px;
-  background: #FFFFFF;
-  border-color: #D90368;
-  border-style: solid;
-  text-decoration-color: #D90368;
+width: 170px;
+height: 50px;
+border-radius: 30px;
+background: #FFFFFF;
+border-color: #D90368;
+border-style: solid;
+text-decoration-color: #D90368;
 }
 
 /*About Me*/
 .aboutme {
-  display: flex;
-  flex-direction: row;
+display: flex;
+flex-direction: row;
 }
 
 #profiledetails {
-  display: flex;
+display: flex;
 }
 
 #profile_details h1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  line-height: 75px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+line-height: 75px;
 }
 
 .name {
-  margin-top: 5px;
-  margin-left: 15px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  font-family: 'autographyregular', sans-serif;
-  color: #FE7F2D;
+margin-top: 5px;
+margin-left: 15px;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+font-family: 'autographyregular', sans-serif;
+color: #FE7F2D;
 }
 
 .self {
-  width: 419px;
-  height: 771px;
-  display: block;
-  margin: 0 auto;
+width: 419px;
+height: 771px;
+display: block;
+margin: 0 auto;
 }
 
 #profile_details h2, h3 {
-  text-align: center;
-  margin: 20px;
+text-align: center;
+margin: 20px;
 }
 
 #profile_details p {
-  font-size: 18px;
-  line-height: 40px;
-  text-align: left;
-  margin-left: auto;
-  max-width: 70%;
-  margin-right: auto;
-  margin-bottom: 50px;
-  margin-top: 25px;
+font-size: 18px;
+line-height: 40px;
+text-align: left;
+margin-left: auto;
+max-width: 70%;
+margin-right: auto;
+margin-bottom: 50px;
+margin-top: 25px;
 }
 
 .dinopic {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
 }
 
 .thaipic {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
 }
 
 /*Project Page*/
 .tab {
-  margin-top: 50px;
-  margin-bottom: 50px;
-  position: sticky;
+margin-top: 50px;
+margin-bottom: 50px;
+position: sticky;
 }
 
 h6 {
-  font-family: Didact Gothic, sans-serif;
-  color: #291720;
+font-family: Didact Gothic, sans-serif;
+color: #291720;
 }
 
 .work p {
-  font-size: 2em;
-  line-height: 40px;
-  margin: 50px;
-  text-align: center;
+font-size: 2em;
+line-height: 40px;
+margin: 50px;
+text-align: center;
 }
 
 img {
-  max-width: 100%;
+max-width: 100%;
 }
 
 /*--Protoype Hero Unit--*/
 #case-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  width: 100%;
-  background: linear-gradient(180deg, #860263 0%, rgba(217, 3, 104, 0.81) 100%);
-  height: 759px;
-  left: 0px;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+width: 100%;
+background: linear-gradient(180deg, #860263 0%, rgba(217, 3, 104, 0.81) 100%);
+height: 759px;
+left: 0px;
 }
 
 .mobile-prototype {
-  align-self: center;
-  width: 672px;
-  height: 414.52px;
-  display: flex;
-  flex-direction: column;
+align-self: center;
+width: 672px;
+height: 414.52px;
+display: flex;
+flex-direction: column;
 }
 
 .casestudy {
-  align-self: center;
-  display: flex;
-  flex-direction: column;
+align-self: center;
+display: flex;
+flex-direction: column;
 }
 
 .casestudy h2 {
-  text-align: center;
-  color: #FFFFFF;
-  position: relative;
+text-align: center;
+color: #FFFFFF;
+position: relative;
 }
 
 .casestudy p {
-  color: #FFFFFF;
-  font-size: 2.8em;
-  text-align: center;
-  margin: 50px;
+color: #FFFFFF;
+font-size: 2.8em;
+text-align: center;
+margin: 50px;
 }
 
 #case-header button {
-  width: 170px;
-  height: 50px;
-  border-radius: 30px;
-  background-color: #FF03FF;
-  border-style: none;
+width: 170px;
+height: 50px;
+border-radius: 30px;
+background-color: #FF03FF;
+border-style: none;
 }
 
 #case-header .light_button a {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  color: #FFFFFF;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+color: #FFFFFF;
 }
 
 #case-header .light_button a {
-  text-decoration: none;
+text-decoration: none;
 }
 
 #case-header .light_button:hover a {
-  color: #D90368;
+color: #D90368;
 }
 
 #case-header button:hover {
-  width: 170px;
-  height: 50px;
-  border-radius: 30px;
-  background: #FFFFFF;
-  border-color: #D90368;
-  border-style: solid;
-  text-decoration-color: #D90368;
+width: 170px;
+height: 50px;
+border-radius: 30px;
+background: #FFFFFF;
+border-color: #D90368;
+border-style: solid;
+text-decoration-color: #D90368;
 }
 
 .light_button {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-/*---Case Details--*/
-#casedetails {
-  display: flex;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  margin-top: 50px;
-  justify-content: space-around;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 
-<<<<<<< HEAD
 /*---Case Details--*/
 #casedetails {
-  display: flex;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  margin-top: 50px;
-  justify-content: space-around;
+display: flex;
+align-items: flex-start;
+flex-wrap: wrap;
+margin-top: 50px;
+justify-content: space-around;
+}
+
+/*---Case Details--*/
+#casedetails {
+display: flex;
+align-items: flex-start;
+flex-wrap: wrap;
+margin-top: 50px;
+justify-content: space-around;
 }
 
 #casedetails .myrole h2 {
-  font-family: Ubuntu, sans-serif;
-  font-size: 2.4em;
-  font-weight: 500;
-  margin-bottom: 10px;
+font-family: Ubuntu, sans-serif;
+font-size: 2.4em;
+font-weight: 500;
+margin-bottom: 10px;
 }
 
 #casedetails .myrole h6 {
-  font-size: 18px;
-  line-height: 167.23%;
+font-size: 18px;
+line-height: 167.23%;
 }
 
 #casedetails .deliverables h2 {
-  font-family: Ubuntu, sans-serif;
-  font-size: 2.4em;
-  font-weight: 500;
-  margin-bottom: 10px;
-  text-align: center;
+font-family: Ubuntu, sans-serif;
+font-size: 2.4em;
+font-weight: 500;
+margin-bottom: 10px;
+text-align: center;
 }
 
-=======
 #casedetails .myrole h2 {
-  font-family: Ubuntu, sans-serif;
-  font-size: 2.4em;
-  font-weight: 500;
-  margin-bottom: 10px;
+font-family: Ubuntu, sans-serif;
+font-size: 2.4em;
+font-weight: 500;
+margin-bottom: 10px;
 }
 
 #casedetails .myrole h6 {
-  font-size: 18px;
-  line-height: 167.23%;
+font-size: 18px;
+line-height: 167.23%;
 }
 
 #casedetails .deliverables h2 {
-  font-family: Ubuntu, sans-serif;
-  font-size: 2.4em;
-  font-weight: 500;
-  margin-bottom: 10px;
-  text-align: center;
+font-family: Ubuntu, sans-serif;
+font-size: 2.4em;
+font-weight: 500;
+margin-bottom: 10px;
+text-align: center;
 }
 
->>>>>>> e012d7679821c094df777bf0c28cb5eed5c64190
 #casedetails .deliverables h6 {
-  text-align: center;
-  line-height: 167.23%;
-  font-size: 18px;
+text-align: center;
+line-height: 167.23%;
+font-size: 18px;
 }
 
 #casedetails .tools h2 {
-  font-family: Ubuntu, sans-serif;
-  font-size: 2.4em;
-  font-weight: 500;
-  margin-bottom: 10px;
-  text-align: center;
+font-family: Ubuntu, sans-serif;
+font-size: 2.4em;
+font-weight: 500;
+margin-bottom: 10px;
+text-align: center;
 }
 
 #casedetails .tools h6 {
-  text-align: center;
-  line-height: 167.23%;
-  font-size: 18px;
+text-align: center;
+line-height: 167.23%;
+font-size: 18px;
 }
 
 /*---Problem Section--*/
 .problem p {
-  vertical-align: middle;
+vertical-align: middle;
 }
 
 /*--Solution--*/
 .sprinkle_pic {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 
 .mobile_solution {
-  display: none;
+display: none;
 }
 
 #solution p {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 
 /*--User Survey Section--*/
 .facts {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+display: flex;
+flex-direction: row;
+justify-content: center;
 }
 
 .orders {
-  display: flex;
-  flex-direction: column;
-  width: 228px;
-  height: 367px;
+display: flex;
+flex-direction: column;
+width: 228px;
+height: 367px;
 }
 
 .time {
-  width: 208px;
-  height: 367px;
-  display: flex;
-  flex-direction: column;
+width: 208px;
+height: 367px;
+display: flex;
+flex-direction: column;
 }
 
 .software {
-  display: flex;
-  flex-direction: column;
-  width: 208px;
-  height: 367px;
+display: flex;
+flex-direction: column;
+width: 208px;
+height: 367px;
 }
 
 .challenges h6 {
-  text-align: center;
-  font-size: 2.0em;
-  line-height: 40px;
+text-align: center;
+font-size: 2.0em;
+line-height: 40px;
 }
 
 #survey .button_words {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  color: #FFFFFF;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+color: #FFFFFF;
 }
 
 .surveybutton {
-  width: 250px;
-  margin-top: 25px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+width: 250px;
+margin-top: 25px;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 
 .surveybutton a {
-  text-decoration: none;
+text-decoration: none;
 }
 
 #survey .surveybutton:hover {
-  color: #D90368;
+color: #D90368;
 }
 
 #survey button:hover {
-  width: 250px;
-  height: 50px;
-  border-radius: 30px;
-  background: #F26103;
-  border-color: #D90368;
-  border-style: none;
+width: 250px;
+height: 50px;
+border-radius: 30px;
+background: #F26103;
+border-color: #D90368;
+border-style: none;
 }
 
 /*--Competitive Analysis--*/
 .companies {
-  display: flex;
-  flex-direction: row;
+display: flex;
+flex-direction: row;
 }
-<<<<<<< HEAD
 
 .cakebosssect {
-  display: flex;
-  flex-direction: column;
-  align-self: flex-end;
+display: flex;
+flex-direction: column;
+align-self: flex-end;
 }
 
 .bakediarysect {
-  display: flex;
-  flex-direction: column;
+display: flex;
+flex-direction: column;
 }
 
-.googlesect {
-=======
-
 .cakebosssect {
-  display: flex;
-  flex-direction: column;
-  align-self: flex-end;
+display: flex;
+flex-direction: column;
+align-self: flex-end;
 }
 
 .bakediarysect {
->>>>>>> e012d7679821c094df777bf0c28cb5eed5c64190
-  display: flex;
-  flex-direction: column;
+display: flex;
+flex-direction: column;
 }
 
-<<<<<<< HEAD
 #competitive .button_words {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  color: #FFFFFF;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+color: #FFFFFF;
 }
 
 .compbuttons {
-  width: 250px;
-  margin-bottom: 55px;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
+width: 250px;
+margin-bottom: 55px;
+display: block;
+margin-right: auto;
+margin-left: auto;
 }
 
 .compbuttons a {
-  text-decoration: none;
+text-decoration: none;
 }
 
 #competitive .compbuttons:hover {
-  color: #D90368;
+color: #D90368;
 }
 
 #competitive button:hover {
-  width: 250px;
-  height: 50px;
-  border-radius: 30px;
-  background: #F26103;
-  border-color: #D90368;
-  border-style: none;
+width: 250px;
+height: 50px;
+border-radius: 30px;
+background: #F26103;
+border-color: #D90368;
+border-style: none;
 }
 
 /*--User Personas--*/
 .personas {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+display: flex;
+flex-direction: row;
+justify-content: center;
 }
 
 .sara {
-  display: flex;
-  flex-direction: column;
+display: flex;
+flex-direction: column;
 }
 
 .sarahmobile {
-  display: none;
+display: none;
 }
 
 .sarainfo {
-  display: none;
+display: none;
 }
 
 .madison {
-  display: flex;
-  flex-direction: column;
+display: flex;
+flex-direction: column;
 }
 
 .madisonmobile {
-  display: none;
+display: none;
 }
 
 .madisoninfo {
-  display: none;
+display: none;
 }
 
 /*--User Stories--*/
 .user_stories {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 10px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 10px;
 }
 
 .userstory {
-  font-family: Ubuntu, sans-serif;
-  font-size: 2em;
-  max-width: 500px;
-  margin-left: auto;
-  margin-right: auto;
-  color: #afafaf;
-  margin-bottom: 25px;
+font-family: Ubuntu, sans-serif;
+font-size: 2em;
+max-width: 500px;
+margin-left: auto;
+margin-right: auto;
+color: #afafaf;
+margin-bottom: 25px;
 }
 
 .userstory th {
-  font-size: 1.5em;
-  background-color: #D90368;
-  color: white;
+font-size: 1.5em;
+background-color: #D90368;
+color: white;
 }
 
 td, th {
-  border: 1px solid #d3d3d3;
-  padding: 10px;
+border: 1px solid #d3d3d3;
+padding: 10px;
 }
 
 /*--User Flow--*/
 .user_flow {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 
 .sitemaps {
-  display: flex;
-  flex-direction: row;
-  margin-right: 50px;
+display: flex;
+flex-direction: row;
+margin-right: 50px;
 }
 
 .sitetext {
-  display: flex;
-  flex-direction: column;
+display: flex;
+flex-direction: column;
 }
 
-=======
 .googlesect {
-  display: flex;
-  flex-direction: column;
+display: flex;
+flex-direction: column;
 }
 
 #competitive .button_words {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  color: #FFFFFF;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+color: #FFFFFF;
 }
 
 .compbuttons {
-  width: 250px;
-  margin-bottom: 55px;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
+width: 250px;
+margin-bottom: 55px;
+display: block;
+margin-right: auto;
+margin-left: auto;
 }
 
 .compbuttons a {
-  text-decoration: none;
+text-decoration: none;
 }
 
 #competitive .compbuttons:hover {
-  color: #D90368;
+color: #D90368;
 }
 
 #competitive button:hover {
-  width: 250px;
-  height: 50px;
-  border-radius: 30px;
-  background: #F26103;
-  border-color: #D90368;
-  border-style: none;
+width: 250px;
+height: 50px;
+border-radius: 30px;
+background: #F26103;
+border-color: #D90368;
+border-style: none;
 }
 
 /*--User Personas--*/
 .personas {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+display: flex;
+flex-direction: row;
+justify-content: center;
 }
 
 .sara {
-  display: flex;
-  flex-direction: column;
+display: flex;
+flex-direction: column;
 }
 
 .sarahmobile {
-  display: none;
+display: none;
 }
 
 .sarainfo {
-  display: none;
+display: none;
 }
 
 .madison {
-  display: flex;
-  flex-direction: column;
+display: flex;
+flex-direction: column;
 }
 
 .madisonmobile {
-  display: none;
+display: none;
 }
 
 .madisoninfo {
-  display:none;
+display: none;
 }
-
 
 /*--User Stories--*/
 .user_stories {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 10px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 10px;
 }
 
 .userstory {
-  font-family: Ubuntu, sans-serif;
-  font-size:2em;
-  max-width:500px;
-  margin-left: auto;
-  margin-right: auto;
-  color: #afafaf;
-  margin-bottom:25px;
+font-family: Ubuntu, sans-serif;
+font-size: 2em;
+max-width: 500px;
+margin-left: auto;
+margin-right: auto;
+color: #afafaf;
+margin-bottom: 25px;
 }
 
-.userstory th{
-  font-size: 1.5em;
-  background-color: #D90368;
-  color:white;
+.userstory th {
+font-size: 1.5em;
+background-color: #D90368;
+color: white;
 }
 
-td,th {
-  border: 1px solid #d3d3d3;
-  padding:10px;
+td, th {
+border: 1px solid #d3d3d3;
+padding: 10px;
 }
 
 /*--User Flow--*/
 .user_flow {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 
 .sitemaps {
-  display: flex;
-  flex-direction: row;
-  margin-right: 50px;
+display: flex;
+flex-direction: row;
+margin-right: 50px;
 }
 
 .sitetext {
-  display: flex;
-  flex-direction: column;
+display: flex;
+flex-direction: column;
 }
 
->>>>>>> e012d7679821c094df777bf0c28cb5eed5c64190
 .sitepic {
-  display: flex;
-  flex-direction: column;
+display: flex;
+flex-direction: column;
 }
 
 #flows .button_words {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  color: #FFFFFF;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+color: #FFFFFF;
 }
 
 .flowbutton {
-  width: 250px;
-  margin-bottom: 55px;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
+width: 250px;
+margin-bottom: 55px;
+display: block;
+margin-right: auto;
+margin-left: auto;
 }
 
 .sitemapbutton {
-  width: 250px;
-  margin-bottom: 55px;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
+width: 250px;
+margin-bottom: 55px;
+display: block;
+margin-right: auto;
+margin-left: auto;
 }
 
 .flowbutton a {
-  text-decoration: none;
+text-decoration: none;
 }
 
 #flows .flowbutton:hover {
-  color: #D90368;
+color: #D90368;
 }
 
 #flows button:hover {
-  width: 250px;
-  height: 50px;
-  border-radius: 30px;
-  background: #F26103;
-  border-color: #D90368;
-  border-style: none;
+width: 250px;
+height: 50px;
+border-radius: 30px;
+background: #F26103;
+border-color: #D90368;
+border-style: none;
 }
 
 /*--Wireframing--*/
 .sketches {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  flex: 1;
-  margin-left: 50px;
-  margin-right: 50px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+flex: 1;
+margin-left: 50px;
+margin-right: 50px;
 }
 
 .sketch {
-  width: 318px;
+width: 318px;
 }
 
 .wireframes {
-  display: flex;
-  flex-direction: row;
-  margin-left: 80px;
-  margin-right: 80px;
-  flex-wrap: wrap;
-  justify-content: center;
+display: flex;
+flex-direction: row;
+margin-left: 80px;
+margin-right: 80px;
+flex-wrap: wrap;
+justify-content: center;
 }
 
 .wireframe1 {
-  display: flex;
-  flex-direction: row;
+display: flex;
+flex-direction: row;
 }
 
 .wireframe2 {
-  display: flex;
-  flex-direction: column;
+display: flex;
+flex-direction: column;
 }
 
 .wireframes2 img {
-  width: 107%;
-  flex-direction: column;
+width: 107%;
+flex-direction: column;
 }
 
 /*--Usability Testing--*/
 .sprinkle_wire {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 
 #usability1 .button_words {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  color: #FFFFFF;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+color: #FFFFFF;
 }
 
 .usebutton {
-  width: 250px;
-  margin-bottom: 25px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+width: 250px;
+margin-bottom: 25px;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 
 .usebutton a {
-  text-decoration: none;
+text-decoration: none;
 }
 
 #usability1 .usebuttons:hover {
-  color: #D90368;
+color: #D90368;
 }
 
 #usability1 button:hover {
-  width: 250px;
-  height: 50px;
-  border-radius: 30px;
-  background: #F26103;
-  border-color: #D90368;
-  border-style: none;
+width: 250px;
+height: 50px;
+border-radius: 30px;
+background: #F26103;
+border-color: #D90368;
+border-style: none;
 }
 
 .paymentpages {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
+display: flex;
+flex-direction: row;
+justify-content: center;
+flex-wrap: wrap;
 }
 
 .paymentpage1 {
-  display: flex;
-  flex-direction: column;
+display: flex;
+flex-direction: column;
 }
 
 .paymentpage2 {
-  display: flex;
-  flex-direction: column;
+display: flex;
+flex-direction: column;
 }
 
 /*--Branding--*/
 #branding p {
-  font-size: 2.0em;
-  line-height: 40px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  text-align: center;
+font-size: 2.0em;
+line-height: 40px;
+margin-top: 50px;
+margin-bottom: 50px;
+text-align: center;
 }
 
 .sprinklelogo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 
 .styleguide {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 
 #usability1 .button_words {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  color: #FFFFFF;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+color: #FFFFFF;
 }
 
 .stylebutton {
-  width: 250px;
-  margin-bottom: 25px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+width: 250px;
+margin-bottom: 25px;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 
 #branding .button_words {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  color: #FFFFFF;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+color: #FFFFFF;
 }
 
 .stylebutton a {
-  text-decoration: none;
+text-decoration: none;
 }
 
 #branding .stylebutton:hover {
-  color: #D90368;
+color: #D90368;
 }
 
 #branding button:hover {
-  width: 250px;
-  height: 50px;
-  border-radius: 30px;
-  background: #F26103;
-  border-color: #D90368;
-  border-style: none;
+width: 250px;
+height: 50px;
+border-radius: 30px;
+background: #F26103;
+border-color: #D90368;
+border-style: none;
 }
 
 /*--Preference Testing--*/
 .sidebar1 {
-  display: flex;
-  flex-direction: row;
-  font-size: 20px;
-  line-height: 40px;
-  justify-content: center;
+display: flex;
+flex-direction: row;
+font-size: 20px;
+line-height: 40px;
+justify-content: center;
 }
 
 .sidebarpic {
-  display: flex;
-  flex-direction: column;
-  width: 486px;
-  height: 428px;
-  margin-left: 20px;
+display: flex;
+flex-direction: column;
+width: 486px;
+height: 428px;
+margin-left: 20px;
 }
 
 .sidebardeets {
-  display: flex;
-  flex-direction: column;
-  width: 450px;
-  margin-left: 50px;
-  margin-right: 20px;
-  margin-top: 8%;
+display: flex;
+flex-direction: column;
+width: 450px;
+margin-left: 50px;
+margin-right: 20px;
+margin-top: 8%;
 }
 
 .menustyle {
-  display: flex;
-  flex-direction: row;
-  font-size: 20px;
-  line-height: 40px;
-  justify-content: center;
+display: flex;
+flex-direction: row;
+font-size: 20px;
+line-height: 40px;
+justify-content: center;
 }
 
 .menus {
-  display: flex;
-  flex-direction: column;
-  width: 486px;
-  height: 428px;
-  margin-left: 20px;
+display: flex;
+flex-direction: column;
+width: 486px;
+height: 428px;
+margin-left: 20px;
 }
 
 .menudeets {
-  display: flex;
-  flex-direction: column;
-  width: 450px;
-  margin-left: 50px;
-  margin-right: 20px;
-  margin-top: 8%;
+display: flex;
+flex-direction: column;
+width: 450px;
+margin-left: 50px;
+margin-right: 20px;
+margin-top: 8%;
 }
 
 .infohigh {
-  display: flex;
-  flex-direction: row;
-  font-size: 20px;
-  line-height: 40px;
-  justify-content: center;
+display: flex;
+flex-direction: row;
+font-size: 20px;
+line-height: 40px;
+justify-content: center;
 }
 
 .infoghipic {
-  display: flex;
-  flex-direction: column;
-  width: 486px;
-  height: 428px;
-  margin-left: 20px;
+display: flex;
+flex-direction: column;
+width: 486px;
+height: 428px;
+margin-left: 20px;
 }
 
 .infodeets {
-  display: flex;
-  flex-direction: column;
-  width: 450px;
-  margin-left: 50px;
-  margin-right: 20px;
-  margin-top: 8%;
+display: flex;
+flex-direction: column;
+width: 450px;
+margin-left: 50px;
+margin-right: 20px;
+margin-top: 8%;
 }
 
 /*--Hi Fi Mockup--*/
 .mockup {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 
 #hifi p {
-  font-size: 2.0em;
-  line-height: 40px;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  text-align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+font-size: 2.0em;
+line-height: 40px;
+margin-top: 25px;
+margin-bottom: 25px;
+text-align: center;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 
 /*--Usability Round 2--*/
-.sprinkle_img2  {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 827px;
+.sprinkle_img2 {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 827px;
 }
 
 #testing2 p {
-  line-height: 40px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 2.0em;
-  text-align: center;
+line-height: 40px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+font-size: 2.0em;
+text-align: center;
 }
 
 .usebuttons {
-  width: 250px;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+width: 250px;
+margin-top: 25px;
+margin-bottom: 25px;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 
 #testing2 .button_words {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  color: #FFFFFF;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+color: #FFFFFF;
 }
 
 .usebuttons a {
-  text-decoration: none;
+text-decoration: none;
 }
 
 #testing2 .usebuttons:hover {
-  color: #D90368;
+color: #D90368;
 }
 
 #testing2 button:hover {
-  width: 250px;
-  height: 50px;
-  border-radius: 30px;
-  background: #F26103;
-  border-color: #D90368;
-  border-style: none;
+width: 250px;
+height: 50px;
+border-radius: 30px;
+background: #F26103;
+border-color: #D90368;
+border-style: none;
 }
 
 /*--Reflections--*/
 .reflections p {
-  line-height: 40px;
-  text-align: center;
+line-height: 40px;
+text-align: center;
 }
 
 /*Mobile Hamburger Menu*/
 @media only screen and (max-width: 500px) {
-
 img.logo {
   display: none;
 }
@@ -1296,1474 +1277,933 @@ img.logo {
   margin-top: -10px;
 }
 
-  label {
-    display: block;
-    cursor: pointer;
-  }
+label {
+  display: block;
+  cursor: pointer;
+}
 
-  .menu {
-    text-align: center;
-    width: 100%;
-    display: none;
-  }
+.menu {
+  text-align: center;
+  width: 100%;
+  display: none;
+}
 
-  .menu a {
-    display: block;
-    border-bottom: 1px solid #F7F7F7;
-    margin: 0;
-    position: relative;
-    z-index: 1;
-    background-color: #ffffff;
-    margin-left: 100px;
-    margin-right: 100px;
-    border: 1px solid #D90368;
-    opacity: .9;
-  }
+.menu a {
+  display: block;
+  border-bottom: 1px solid #F7F7F7;
+  margin: 0;
+  position: relative;
+  z-index: 1;
+  background-color: #ffffff;
+  margin-left: 100px;
+  margin-right: 100px;
+  border: 1px solid #D90368;
+  opacity: .9;
+}
 
-  #toggle:checked+.menu {
-    display: block;
-  }
+#toggle:checked+.menu {
+  display: block;
+}
 
-  .logo {
-    display: inline-flex;
-    vertical-align: middle;
-    margin-top: 10px;
-    margin-left: 40%;
-  }
+.logo {
+  display: inline-flex;
+  vertical-align: middle;
+  margin-top: 10px;
+  margin-left: 40%;
+}
 }
 
 /*Hero Sizing for Tablets and Desktops*/
 @media only screen and (min-width: 768px) {
-  .profile {
-    visibility: visible;
-    position: absolute;
-    width: 438px;
-    height: 410px;
-    left: 545px;
-    top: 182px;
-    z-index: 1;
-  }
+.profile {
+  visibility: visible;
+  position: absolute;
+  width: 438px;
+  height: 410px;
+  left: 545px;
+  top: 182px;
+  z-index: 1;
+}
 
-  .diamond {
-    visibility: visible;
-    position: absolute;
-    width: 438px;
-    height: 410px;
-    left: 619px;
-    top: 182px;
-  }
+.diamond {
+  visibility: visible;
+  position: absolute;
+  width: 438px;
+  height: 410px;
+  left: 619px;
+  top: 182px;
+}
 }
 
 /*Mobile Size Hero*/
 @media only screen and (max-width: 500px) {
-  .navbar {
-    display: block;
-  }
+.navbar {
+  display: block;
+}
 
-  #hero-unit {
-    height: 600px;
-  }
+#hero-unit {
+  height: 600px;
+}
 
-  .whoami {
-    width: 65%;
-    overflow: visible;
-    text-overflow: clip;
-    margin: 0;
-    margin-top: 25px;
-    left: 0;
-    margin-left: auto;
-    margin-right: auto;
-  }
+.whoami {
+  width: 65%;
+  overflow: visible;
+  text-overflow: clip;
+  margin: 0;
+  margin-top: 25px;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  .name h1 {
-    overflow: visible;
-    text-overflow: clip;
-    display: block;
-    margin: 0;
-    position: inherit;
-    margin-top: 60px;
-  }
+.name h1 {
+  overflow: visible;
+  text-overflow: clip;
+  display: block;
+  margin: 0;
+  position: inherit;
+  margin-top: 60px;
+}
 
-  .hi {
-    margin-left: 0 !important;
-  }
+.hi {
+  margin-left: 0 !important;
+}
 
-  .bigname {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+.bigname {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 }
 
 /*Homepage Case Study Mobile*/
 @media only screen and (max-width: 500px) {
-  #recentcaseL {
-    width: 100%;
-  }
+#recentcaseL {
+  width: 100%;
+}
 
-  #recentcaseL {
-    flex: none;
-    display: block;
-    padding-left: 0;
-    padding-right: 0;
-  }
+#recentcaseL {
+  flex: none;
+  display: block;
+  padding-left: 0;
+  padding-right: 0;
+}
 
-  .sprinkledeets {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+.sprinkledeets {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  .sprinkledeets p {
-    display: block;
-    height: 240px;
-    width: 75%;
-    font-size: 1.8em;
-    text-overflow: clip;
-    overflow: visible;
-    text-align: justify;
-    margin: 0 auto;
-  }
+.sprinkledeets p {
+  display: block;
+  height: 240px;
+  width: 75%;
+  font-size: 1.8em;
+  text-overflow: clip;
+  overflow: visible;
+  text-align: justify;
+  margin: 0 auto;
+}
 
-  #recentcaseL h3 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-  }
+#recentcaseL h3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
 
-  .phonepic {
-    max-width: 50%;
-    width: 75%;
-    height: 75%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+.phonepic {
+  max-width: 50%;
+  width: 75%;
+  height: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  .pink_button {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+.pink_button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 }
 
 /*About Me Page Mobile*/
 @media only screen and (max-width: 500px) {
-  #profile_details h1 {
-    display: inline-block;
-    width: 60%;
-    font-size: 4.8em;
-    text-align: center;
-    margin-left: 20%;
-    line-height: 50px;
-  }
+#profile_details h1 {
+  display: inline-block;
+  width: 60%;
+  font-size: 4.8em;
+  text-align: center;
+  margin-left: 20%;
+  line-height: 50px;
+}
 
-  .self {
-    width: 239px;
-    height: 440px;
-    display: block;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+.self {
+  width: 239px;
+  height: 440px;
+  display: block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  #profile_details p {
-    display: block;
-    width: 80%;
-    font-size: 1.6em;
-    text-align: center;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 23px;
-  }
+#profile_details p {
+  display: block;
+  width: 80%;
+  font-size: 1.6em;
+  text-align: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 23px;
+}
 
-  #profile_details h2, h3 {
-    display: block;
-    width: 80%;
-    font-size: 2.4em;
-    text-align: center;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 23px;
-  }
+#profile_details h2, h3 {
+  display: block;
+  width: 80%;
+  font-size: 2.4em;
+  text-align: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 23px;
+}
 
-  .photo {
-    width: 315px;
-    height: 248px;
-    margin-left: -32px;
-  }
+.photo {
+  width: 315px;
+  height: 248px;
+  margin-left: -32px;
+}
 }
 
 /*Project Page Mobile Screen*/
 @media only screen and (max-width: 500px) {
-  .project .navbar {
-    background: #860263;
-  }
+.project .navbar {
+  background: #860263;
+}
 
-  .project .menu a {
-    color: #D90368;
-    position: relative;
-    z-index: 1;
-    background-color: #ffffff;
-    margin-left: 100px;
-    margin-right: 100px;
-    border-bottom: 1px solid #D90368;
-    opacity: .8;
-  }
+.project .menu a {
+  color: #D90368;
+  position: relative;
+  z-index: 1;
+  background-color: #ffffff;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-bottom: 1px solid #D90368;
+  opacity: .8;
+}
 
-  .project label {
-    color: #FFFFFF;
-  }
+.project label {
+  color: #FFFFFF;
+}
 
-  #case-header {
-    width: 100%;
-  }
+#case-header {
+  width: 100%;
+}
 
-  #case-header {
-    flex: none;
-    display: block;
-    padding-left: 0;
-    padding-right: 0;
-  }
+#case-header {
+  flex: none;
+  display: block;
+  padding-left: 0;
+  padding-right: 0;
+}
 
-  .casestudy p {
-    display: block;
-    height: 100px;
-    font-size: 1.8em;
-    text-overflow: clip;
-    overflow: visible;
-    text-align: center;
-    justify-content: center;
-    margin: 0 auto;
-    padding-top: 5%;
-  }
+.casestudy p {
+  display: block;
+  height: 100px;
+  font-size: 1.8em;
+  text-overflow: clip;
+  overflow: visible;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 5%;
+}
 
-  .mobile-prototype {
-    max-width: 70%;
-    width: 70%;
-    height: 70%;
-    display: block;
-    text-align: right;
-    margin: 0 auto;
-    padding-top: 40%;
-  }
+.mobile-prototype {
+  max-width: 70%;
+  width: 70%;
+  height: 70%;
+  display: block;
+  text-align: right;
+  margin: 0 auto;
+  padding-top: 40%;
+}
 
-  .buttons {
-    display: flex;
-    flex-direction: row;
-    align-self: center;
-    flex: 1;
-  }
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  flex: 1;
+}
 }
 
 /*Case Study Mobile Size*/
 @media only screen and (max-width: 500px) {
-  .tab {
-    height: 40px;
-  }
+.tab {
+  height: 40px;
+}
 
-  .sprinkle_pic {
-    display: none;
-  }
+.sprinkle_pic {
+  display: none;
+}
 
-  .mobile_solution {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-  }
+.mobile_solution {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
 
-  #solution p {
-    margin-left: 50px;
-    margin-right: 50px;
-  }
+#solution p {
+  margin-left: 50px;
+  margin-right: 50px;
+}
 
-  .facts {
-    flex-wrap: wrap;
-  }
+.facts {
+  flex-wrap: wrap;
+}
 
-  .myrole, .deliverables, .tools {
-    margin-bottom: 20px;
-    width: 500px;
-    text-align: center;
-  }
+.myrole, .deliverables, .tools {
+  margin-bottom: 20px;
+  width: 500px;
+  text-align: center;
+}
 
-  .surveybutton {
-    width: 50%;
-    margin-left: 24%
-  }
+.surveybutton {
+  width: 50%;
+  margin-left: 24%
+}
 
-  .companies {
-    flex-wrap: wrap;
-  }
+.companies {
+  flex-wrap: wrap;
+}
 
-  .compbuttons {
-    width: 50%;
-  }
+.compbuttons {
+  width: 50%;
+}
 
-  .personas {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+.personas {
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
-  .sarahmobile {
-    visibility: visible;
-    margin-left: 50px;
-    margin-right: 50px;
-  }
+.sarahmobile {
+  visibility: visible;
+  margin-left: 50px;
+  margin-right: 50px;
+}
 
-  #personas p {
-    margin: unset;
-  }
+#personas p {
+  margin: unset;
+}
 
-  .viewpersona {
-    text-align: center;
-    font-family: Ubuntu, sans-serif;
-    color: #291720;
-    font-size: 2em;
-    font-weight: 600;
-    margin-top: 5px;
-    margin-bottom: 25px;
-  }
+.viewpersona {
+  text-align: center;
+  font-family: Ubuntu, sans-serif;
+  color: #291720;
+  font-size: 2em;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
 
-  .viewpersona a:active {
-    text-transform: none;
-    color: #FE7F2D;
-  }
+.viewpersona a:active {
+  text-transform: none;
+  color: #FE7F2D;
+}
 
-  .persona {
-    display: none;
-  }
+.persona {
+  display: none;
+}
 
-  .madisonmobile {
-    margin-left: 50px;
-    margin-right: 50px;
-  }
+.madisonmobile {
+  margin-left: 50px;
+  margin-right: 50px;
+}
 
-  .user_stories {
-    width: 433px;
-    height: 396.9px;
-    display: block;
-    margin-top: -100px;
-    margin-bottom: -100px;
-  }
+.user_stories {
+  width: 433px;
+  height: 396.9px;
+  display: block;
+  margin-top: -100px;
+  margin-bottom: -100px;
+}
 
-  .user_flow {
-    width: 90%;
-    flex-wrap: wrap;
-  }
+.user_flow {
+  width: 90%;
+  flex-wrap: wrap;
+}
 
-  .sitemaps {
-    flex-wrap: wrap;
-    margin-right: 0 !important;
-  }
+.sitemaps {
+  flex-wrap: wrap;
+  margin-right: 0 !important;
+}
 
-  .sketch {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-    margin-bottom: 20px;
-  }
+.sketch {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  margin-bottom: 20px;
+}
 
-  .wireframe {
-    width: 90%;
-    justify-content: center;
-    margin-bottom: 25px;
-  }
+.wireframe {
+  width: 90%;
+  justify-content: center;
+  margin-bottom: 25px;
+}
 
-  .wireframes2 {
-    margin-bottom: -50px;
-  }
+.wireframes2 {
+  margin-bottom: -50px;
+}
 
-  .sprinkle_wire {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-  }
+.sprinkle_wire {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
 
-  .usebutton {
-    width: 50%;
-  }
+.usebutton {
+  width: 50%;
+}
 
-  .paymentpages {
-    width: 80%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+.paymentpages {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  .styleguide {
-    width: 313.02px;
-    height: 430px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+.styleguide {
+  width: 313.02px;
+  height: 430px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  .sprinklelogo {
-    width: 246px;
-    height: 126.56px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+.sprinklelogo {
+  width: 246px;
+  height: 126.56px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  .sidebar1 {
-    flex-wrap: wrap;
-  }
+.sidebar1 {
+  flex-wrap: wrap;
+}
 
-  #branding p {
-    margin-left: 50px;
-    margin-right: 50px;
-  }
+#branding p {
+  margin-left: 50px;
+  margin-right: 50px;
+}
 
-  #preference h2 {
-    margin-bottom: -10px;
-  }
+#preference h2 {
+  margin-bottom: -10px;
+}
 
-  #preference p {
-    text-align: center;
-    font-size: 2.0em;
-  }
+#preference p {
+  text-align: center;
+  font-size: 2.0em;
+}
 
-  .menudeets {
-    font-size: 2.0em;
-  }
+.menudeets {
+  font-size: 2.0em;
+}
 
-  #preference .sidebarpic {
-    width: 70%;
-    margin-top: -50px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+#preference .sidebarpic {
+  width: 70%;
+  margin-top: -50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  #preference .menus {
-    width: 70%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+#preference .menus {
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  #preference .infoghipic {
-    width: 70%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+#preference .infoghipic {
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  .menustyle {
-    flex-wrap: wrap;
-  }
+.menustyle {
+  flex-wrap: wrap;
+}
 
-  .infohigh {
-    flex-wrap: wrap;
-  }
+.infohigh {
+  flex-wrap: wrap;
+}
 
-  .mockup {
-    width: 386px;
-    height: 243px;
-    margin-top: 25px;
-  }
+.mockup {
+  width: 386px;
+  height: 243px;
+  margin-top: 25px;
+}
 
-  #hifi p {
-    margin-left: 50px !important;
-    margin-right: 50px !important;
-  }
+#hifi p {
+  margin-left: 50px !important;
+  margin-right: 50px !important;
+}
 
-  #testing2 .sprinkle_img2 {
-    width: 90%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+#testing2 .sprinkle_img2 {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  #testing2 p {
-    margin-left: 50px !important;
-    margin-right: 50px !important;
-  }
+#testing2 p {
+  margin-left: 50px !important;
+  margin-right: 50px !important;
+}
 
-  #reflect h3 {
-    font-size: 2.5em;
-  }
+#reflect h3 {
+  font-size: 2.5em;
+}
 
-  .reflections p {
-    font-size: 2.0em;
-    margin-left: 50px;
-    margin-right: 50px;
-  }
+.reflections p {
+  font-size: 2.0em;
+  margin-left: 50px;
+  margin-right: 50px;
+}
 
-  .tab {
-    display: none;
-  }
+.tab {
+  display: none;
+}
 
-  .header h2 {
-    text-align: center;
-    color: #FE7F2D;
-    margin: 50px;
-    line-height: 40px;
-  }
+.header h2 {
+  text-align: center;
+  color: #FE7F2D;
+  margin: 50px;
+  line-height: 40px;
+}
 }
 
 /*Case Study Large Desktop Screen*/
 @media only screen and (min-width: 1025px) {
-  #case-header {
-    display: flex !important;
-  }
-
-  p.casestudy {
-    font-size: 2.8em;
-  }
-
-  .header h2 {
-    display: none;
-  }
-
-  #preference p {
-    font-size: 1.2em;
-    line-height: 40px;
-    margin: 50px;
-    text-align: center;
-  }
-
-  #casedetails .myrole h2 {
-    font-size: 3.2em;
-    text-align: center;
-  }
-
-  #casedetails .deliverables h2 {
-    font-size: 3.2em;
-  }
-
-  #casedetails .tools h2 {
-    font-size: 3.2em;
-  }
-
-  #casedetails .myrole h6 {
-    font-size: 2.4em;
-    text-align: center;
-  }
-
-  #casedetails .deliverables h6 {
-    font-size: 2.4em;
-  }
-
-  #casedetails .tools h6 {
-    font-size: 2.4em;
-  }
-
-<<<<<<< HEAD
-  #problem p {
-    width: 894px;
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-=======
-/*--Usability Round 2--*/
-#testing2 img {
-  display: block;
-    margin-left: auto;
-    margin-right: auto;
-  max-width: 827px;
-  height: 559.25px;
-}
->>>>>>> e012d7679821c094df777bf0c28cb5eed5c64190
-
-  #solution p {
-    width: 894px;
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  p.caintro {
-    width: 894px;
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-<<<<<<< HEAD
-  #personas p {
-    width: 894px;
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  #stories p {
-    width: 894px;
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  p.flows1 {
-    width: 894px;
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .sitemaps p {
-    width: 500px;
-  }
-
-  #wire p {
-    width: 894px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  #usability1 p {
-    width: 894px;
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  #branding p {
-    width: 894px !important;
-    font-size: 2.4em !important;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  #hifi p {
-    width: 894px !important;
-    font-size: 2.4em !important;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  #testing2 p {
-    width: 894px;
-    text-align: center;
-    font-size: 2.4em !important;
-  }
-
-  .reflections p {
-    font-size: 2.4em !important;
-    width: 894px;
-=======
-#testing2 .button_words {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  color: #FFFFFF;
+#case-header {
+  display: flex !important;
 }
 
-.usebuttons a {
-  text-decoration: none;
+p.casestudy {
+  font-size: 2.8em;
 }
 
-#testing2 .usebuttons:hover {
-  color: #D90368;
+.header h2 {
+  display: none;
 }
 
-#testing2 button:hover {
-  width: 250px;
-  height: 50px;
-  border-radius: 30px;
-  background: #F26103;
-  border-color: #D90368;
-  border-style: none;
-}
-
-/*--Reflections--*/
-.reflections p {
+#preference p {
+  font-size: 1.2em;
   line-height: 40px;
+  margin: 50px;
   text-align: center;
 }
 
-  /*Mobile Hamburger Menu*/
-@media only screen and (max-width: 500px) {
-  label {
-    display: block;
-    cursor: pointer;
-  }
-
-  .menu {
-    text-align: center;
-    width: 100%;
-    display: none;
-  }
-
-  .menu a {
-    display: block;
-    border-bottom: 1px solid #F7F7F7;
-    margin: 0;
-    position: relative;
-    z-index: 1;
-    background-color: #ffffff;
-    margin-left: 100px;
-    margin-right: 100px;
-    border: 1px solid #D90368;
-    opacity: .9;
-  }
-
-  #toggle:checked+.menu {
-    display: block;
-  }
-
-  .logo {
-    display: inline-flex;
-    vertical-align: middle;
-    margin-top: 10px;
-    margin-left: 40%;
-  }
-}
-  /*Hero Sizing for Tablets and Desktops*/
-@media only screen and (min-width: 768px) {
-  .profile {
-    visibility: visible;
-    position: absolute;
-    width: 438px;
-    height: 410px;
-    left: 545px;
-    top: 182px;
-    z-index: 1;
-  }
-
-  .diamond {
-    visibility: visible;
-    position: absolute;
-    width: 438px;
-    height: 410px;
-    left: 619px;
-    top: 182px;
-  }
+#casedetails .myrole h2 {
+  font-size: 3.2em;
+  text-align: center;
 }
 
-/*Mobile Size Hero*/
-@media only screen and (max-width: 500px) {
-  .navbar {
-    display: block;
-  }
-
-  #hero-unit {
-    height: 600px;
-  }
-
-  .whoami {
-    width: 65%;
-    overflow: visible;
-    text-overflow: clip;
-    margin: 0;
-    margin-top: 25px;
-    left: 0;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .name h1 {
-    overflow: visible;
-    text-overflow: clip;
-    display: block;
-    margin: 0;
-    position: inherit;
-    margin-top: 60px;
-  }
-
-  .hi {
-    margin-left: 0 !important;
-  }
-
-  .bigname {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+#casedetails .deliverables h2 {
+  font-size: 3.2em;
 }
 
-  /*Homepage Case Study Mobile*/
-@media only screen and (max-width: 500px) {
-  #recentcaseL {
-    width: 100%;
-  }
-
-  #recentcaseL {
-    flex: none;
-    display: block;
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  .sprinkledeets {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .sprinkledeets p {
-    display: block;
-    height: 240px;
-    width: 75%;
-    font-size: 1.8em;
-    text-overflow: clip;
-    overflow: visible;
-    text-align: justify;
-    margin: 0 auto;
-  }
-
-  #recentcaseL h3 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-  }
-
-  .phonepic {
-    max-width: 50%;
-    width: 75%;
-    height: 75%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .pink_button {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+#casedetails .tools h2 {
+  font-size: 3.2em;
 }
 
-  /*About Me Page Mobile*/
-@media only screen and (max-width: 500px) {
-  #profile_details h1 {
-    display: inline-block;
-    width: 60%;
-    font-size: 4.8em;
-    text-align: center;
-    margin-left: 20%;
-    line-height: 50px;
-  }
-
-  .self {
-    width: 239px;
-    height: 440px;
-    display: block;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  #profile_details p {
-    display: block;
-    width: 80%;
-    font-size: 1.6em;
-    text-align: center;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 23px;
-  }
-
-  #profile_details h2, h3 {
-    display: block;
-    width: 80%;
-    font-size: 2.4em;
-    text-align: center;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 23px;
-  }
-
-  .photo {
-    width: 315px;
-    height: 248px;
-    margin-left: -32px;
-  }
+#casedetails .myrole h6 {
+  font-size: 2.4em;
+  text-align: center;
 }
 
-  /*Project Page Mobile Screen*/
-@media only screen and (max-width: 500px) {
-  .project .navbar {
-    background: #860263;
-  }
+#casedetails .deliverables h6 {
+  font-size: 2.4em;
+}
 
-  .project .menu a {
-    color: #D90368;
-    position: relative;
-    z-index: 1;
-    background-color: #ffffff;
-    margin-left: 100px;
-    margin-right: 100px;
-    border-bottom: 1px solid #D90368;
-    opacity: .8;
-  }
+#casedetails .tools h6 {
+  font-size: 2.4em;
+}
 
-  .project label {
+#problem p {
+  width: 894px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*--Usability Round 2--*/
+#testing2 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 827px;
+  height: 559.25px;
+}
+
+#solution p {
+  width: 894px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p.caintro {
+  width: 894px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#personas p {
+  width: 894px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#stories p {
+  width: 894px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p.flows1 {
+  width: 894px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sitemaps p {
+  width: 500px;
+}
+
+#wire p {
+  width: 894px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#usability1 p {
+  width: 894px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#branding p {
+  width: 894px !important;
+  font-size: 2.4em !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#hifi p {
+  width: 894px !important;
+  font-size: 2.4em !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#testing2 p {
+  width: 894px;
+  text-align: center;
+  font-size: 2.4em !important;
+}
+
+.reflections p {
+  font-size: 2.4em !important;
+  width: 894px;
+}
+
+  #testing2 .button_words {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
     color: #FFFFFF;
   }
 
-  #case-header {
-    width: 100%;
+  .usebuttons a {
+    text-decoration: none;
   }
 
-  #case-header {
-    flex: none;
-    display: block;
-    padding-left: 0;
-    padding-right: 0;
+  #testing2 .usebuttons:hover {
+    color: #D90368;
   }
 
-  .casestudy p {
-    display: block;
-    height: 100px;
-    font-size: 1.8em;
-    text-overflow: clip;
-    overflow: visible;
-    text-align: center;
-    justify-content: center;
-    margin: 0 auto;
-    padding-top: 5%;
+  #testing2 button:hover {
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    background: #F26103;
+    border-color: #D90368;
+    border-style: none;
   }
 
-  .mobile-prototype {
-    max-width: 70%;
-    width: 70%;
-    height: 70%;
-    display: block;
-    text-align: right;
-    margin: 0 auto;
-    padding-top: 40%;
-  }
-
-  .buttons {
-    display: flex;
-    flex-direction: row;
-    align-self: center;
-    flex: 1;
-  }
-}
-
-  /*Case Study Mobile Size*/
-@media only screen and (max-width: 500px) {
-  .tab {
-    height: 40px;
-  }
-
-  .sprinkle_pic {
-    display: none;
-  }
-
-  .mobile_solution {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-  }
-
-  #solution p {
-    margin-left: 50px;
-    margin-right: 50px;
-  }
-
-  .facts {
-    flex-wrap: wrap;
-  }
-
-  .myrole, .deliverables, .tools {
-    margin-bottom: 20px;
-    width: 500px;
-    text-align: center;
-  }
-
-  .surveybutton {
-    width: 50%;
-    margin-left: 24%
-  }
-
-  .companies {
-    flex-wrap: wrap;
-  }
-
-  .compbuttons {
-    width: 50%;
-  }
-
-  .personas {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .sarahmobile {
-    visibility: visible;
-    margin-left: 50px;
-    margin-right: 50px;
-  }
-
-  #personas p {
-    margin: unset;
-  }
-
-  .viewpersona {
-    text-align: center;
-    font-family: Ubuntu, sans-serif;
-    color: #291720;
-    font-size: 2em;
-    font-weight: 600;
-    margin-top: 5px;
-    margin-bottom: 25px;
-  }
-
-  .viewpersona a:active {
-    text-transform: none;
-    color: #FE7F2D;
-  }
-
-  .persona {
-    display: none;
-  }
-
-  .madisonmobile {
-    margin-left: 50px;
-    margin-right: 50px;
-  }
-
-  .user_stories {
-    width: 433px;
-    height: 396.9px;
-    display: block;
-    margin-top: -100px;
-    margin-bottom: -100px;
-  }
-
-  .user_flow {
-    width: 90%;
-    flex-wrap: wrap;
-  }
-
-  .sitemaps {
-    flex-wrap: wrap;
-    margin-right: 0 !important;
-  }
-
-  .sketch {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-    margin-bottom: 20px;
-  }
-
-  .wireframe {
-    width: 90%;
-    justify-content: center;
-    margin-bottom: 25px;
-  }
-
-  .wireframes2 {
-    margin-bottom: -50px;
-  }
-
-  .sprinkle_wire {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-  }
-
-  .usebutton {
-    width: 50%;
-  }
-
-  .paymentpages {
-    width: 80%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .styleguide {
-    width: 313.02px;
-    height: 430px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .sprinklelogo {
-    width: 246px;
-    height: 126.56px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .sidebar1 {
-    flex-wrap: wrap;
-  }
-
-  #branding p {
-    margin-left: 50px;
-    margin-right: 50px;
-  }
-
-  #preference h2 {
-    margin-bottom: -10px;
-  }
-
-  #preference p {
-    text-align: center;
-    font-size: 2.0em;
-  }
-
-  .menudeets {
-    font-size: 2.0em;
-  }
-
-  #preference .sidebarpic {
-    width: 70%;
-    margin-top: -50px;
->>>>>>> e012d7679821c094df777bf0c28cb5eed5c64190
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-<<<<<<< HEAD
-}
-
-/*Sizing for Tablets and Small Desktops*/
-@media (min-width: 768px) and (max-width: 1024px) {
-=======
-
-  #preference .menus {
-    width: 70%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
->>>>>>> e012d7679821c094df777bf0c28cb5eed5c64190
-
-  #preference .infoghipic {
-    width: 70%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .menustyle {
-    flex-wrap: wrap;
-  }
-
-  .infohigh {
-    flex-wrap: wrap;
-  }
-
-  .mockup {
-    width: 386px;
-    height: 243px;
-    margin-top: 25px;
-  }
-
-  #hifi p {
-    margin-left: 50px !important;
-    margin-right: 50px !important;
-  }
-
-  #testing2 .sprinkle_img2 {
-    width: 90%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  #testing2 p {
-    margin-left: 50px !important;
-    margin-right: 50px !important;
-  }
-
-  #reflect h3 {
-    font-size: 2.5em;
-  }
-
+  /*--Reflections--*/
   .reflections p {
-    font-size: 2.0em;
-    margin-left: 50px;
-    margin-right: 50px;
-  }
-
-  .tab {
-    display: none;
-  }
-
-  .header h2 {
-    text-align: center;
-    color: #FE7F2D;
-    margin: 50px;
     line-height: 40px;
+    text-align: center;
   }
 }
-
-  /*Case Study Large Desktop Screen*/
-@media only screen and (min-width: 1025px) {
-  #case-header {
-    display: flex !important;
-  }
-
-  p.casestudy {
-    font-size: 2.8em;
-  }
-
-  .header h2 {
-    display: none;
-  }
-
-  #preference p {
-    font-size: 1.2em;
-    line-height: 40px;
-    margin: 50px;
-    text-align: center;
-  }
-
-  #casedetails .myrole h2 {
-    font-size: 3.2em;
-    text-align: center;
-  }
-
-  #casedetails .deliverables h2 {
-    font-size: 3.2em;
-  }
-
-  #casedetails .tools h2 {
-    font-size: 3.2em;
-  }
-
-  #casedetails .myrole h6 {
-    font-size: 2.4em;
-    text-align: center;
-  }
-
-  #casedetails .deliverables h6 {
-    font-size: 2.4em;
-  }
-
-  #casedetails .tools h6 {
-    font-size: 2.4em;
-  }
-
-  #problem p {
-    width: 894px;
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  #solution p {
-    width: 894px;
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  p.caintro {
-    width: 894px;
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  #personas p {
-    width: 894px;
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  #stories p {
-    width: 894px;
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  p.flows1 {
-    width: 894px;
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .sitemaps p {
-    width: 500px;
-  }
-
-  #wire p {
-    width: 894px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  #usability1 p {
-    width: 894px;
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-<<<<<<< HEAD
-  .sprinkle_img2 {
-    width: 90%;
-=======
-  #branding p {
-    width: 894px !important;
-    font-size: 2.4em !important;
->>>>>>> e012d7679821c094df777bf0c28cb5eed5c64190
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  #hifi p {
-    width: 894px !important;
-    font-size: 2.4em !important;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  #testing2 p {
-    width: 894px;
-    text-align: center;
-    font-size: 2.4em !important;
-  }
-<<<<<<< HEAD
-}
-=======
-
-  .reflections p {
-    font-size: 2.4em !important;
-    width: 894px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-    /*Sizing for Tablets and Small Desktops*/
-  @media (min-width: 768px) and (max-width: 1024px) {
-
-    /*Intro page*/
-    .bigname h1 {
-      font-weight: normal;
-      line-height: 22px;
-      font-size: 6.4em;
-      margin-left: -100px;
+  /*Mobile Hamburger Menu*/
+  @media only screen and (max-width: 500px) {
+    label {
+      display: block;
+      cursor: pointer;
     }
 
-    .bigname {
-      font-size: 80%;
-      width: 300px;
-      flex-wrap: wrap;
-      margin-left: 35px;
+    .menu {
+      text-align: center;
+      width: 100%;
+      display: none;
     }
 
-    .name {
-      flex-wrap: wrap;
+    .menu a {
+      display: block;
+      border-bottom: 1px solid #F7F7F7;
+      margin: 0;
+      position: relative;
+      z-index: 1;
+      background-color: #ffffff;
+      margin-left: 100px;
+      margin-right: 100px;
+      border: 1px solid #D90368;
+      opacity: .9;
     }
 
-    .whoami {
-      font-size: 1.6em;
-      width: 250px;
+    #toggle:checked+.menu {
+      display: block;
     }
 
+    .logo {
+      display: inline-flex;
+      vertical-align: middle;
+      margin-top: 10px;
+      margin-left: 40%;
+    }
+  }
+
+  /*Hero Sizing for Tablets and Desktops*/
+  @media only screen and (min-width: 768px) {
     .profile {
       visibility: visible;
       position: absolute;
-      width: 40%;
-      height: auto;
-      left: 400px;
-      top: 220px;
+      width: 438px;
+      height: 410px;
+      left: 545px;
+      top: 182px;
       z-index: 1;
     }
 
     .diamond {
       visibility: visible;
       position: absolute;
-      width: 40%;
-      height: auto;
-      left: 429px;
-      top: 220px;
+      width: 438px;
+      height: 410px;
+      left: 619px;
+      top: 182px;
+    }
+  }
+
+  /*Mobile Size Hero*/
+  @media only screen and (max-width: 500px) {
+    .navbar {
+      display: block;
     }
 
-    #recentcaseL h3 {
-      color: #FFFFFF;
-      width: 140px;
-      height: 22px;
-      font-family: Ubuntu, sans-serif;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 3.6em;
-      line-height: 22px;
-      letter-spacing: -0.0141176em;
-      margin-left: 32%;
-      margin-bottom: 20px;
+    #hero-unit {
+      height: 600px;
     }
 
-    .sprinkledeets p {
-      width: 300px;
-      font-family: Didact Gothic, sans-serif;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 1.6em;
-      line-height: 167.23%;
-      color: #FFFFFF;
-      text-align: left;
-      margin-left: 25px;
+    .whoami {
+      width: 65%;
+      overflow: visible;
+      text-overflow: clip;
+      margin: 0;
+      margin-top: 25px;
+      left: 0;
+      margin-left: auto;
+      margin-right: auto;
     }
 
-    /*About Me Page*/
-    .aboutme h1 {
-      line-height: 22px;
-      font-size: 4.8em;
+    .name h1 {
+      overflow: visible;
+      text-overflow: clip;
+      display: block;
+      margin: 0;
+      position: inherit;
+      margin-top: 60px;
     }
 
-    .aboutme h2 {
-      font-size: 3.6em;
+    .hi {
+      margin-left: 0 !important;
     }
 
-    .aboutme h3 {
-      font-size: 2.8em;
+    .bigname {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  /*Homepage Case Study Mobile*/
+  @media only screen and (max-width: 500px) {
+    #recentcaseL {
+      width: 100%;
     }
 
-    /*hoooooollllldddd*/
-    /*Sprinkle Page*/
-    #case-header {
+    #recentcaseL {
       flex: none;
       display: block;
       padding-left: 0;
       padding-right: 0;
     }
 
-    .light_button {
-      margin-top: 15px;
+    .sprinkledeets {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .sprinkledeets p {
+      display: block;
+      height: 240px;
+      width: 75%;
+      font-size: 1.8em;
+      text-overflow: clip;
+      overflow: visible;
+      text-align: justify;
+      margin: 0 auto;
+    }
+
+    #recentcaseL h3 {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 50px;
+    }
+
+    .phonepic {
+      max-width: 50%;
+      width: 75%;
+      height: 75%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .pink_button {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  /*About Me Page Mobile*/
+  @media only screen and (max-width: 500px) {
+    #profile_details h1 {
+      display: inline-block;
+      width: 60%;
+      font-size: 4.8em;
+      text-align: center;
+      margin-left: 20%;
+      line-height: 50px;
+    }
+
+    .self {
+      width: 239px;
+      height: 440px;
+      display: block;
+      margin-top: 50px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #profile_details p {
+      display: block;
+      width: 80%;
+      font-size: 1.6em;
+      text-align: center;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 23px;
+    }
+
+    #profile_details h2, h3 {
+      display: block;
+      width: 80%;
+      font-size: 2.4em;
+      text-align: center;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 23px;
+    }
+
+    .photo {
+      width: 315px;
+      height: 248px;
+      margin-left: -32px;
+    }
+  }
+
+  /*Project Page Mobile Screen*/
+  @media only screen and (max-width: 500px) {
+    .project .navbar {
+      background: #860263;
+    }
+
+    .project .menu a {
+      color: #D90368;
+      position: relative;
+      z-index: 1;
+      background-color: #ffffff;
+      margin-left: 100px;
+      margin-right: 100px;
+      border-bottom: 1px solid #D90368;
+      opacity: .8;
+    }
+
+    .project label {
+      color: #FFFFFF;
+    }
+
+    #case-header {
+      width: 100%;
+    }
+
+    #case-header {
+      flex: none;
+      display: block;
+      padding-left: 0;
+      padding-right: 0;
     }
 
     .casestudy p {
@@ -2779,13 +2219,13 @@ img.logo {
     }
 
     .mobile-prototype {
-      max-width: 100%;
+      max-width: 70%;
       width: 70%;
       height: 70%;
       display: block;
       text-align: right;
       margin: 0 auto;
-      padding-top: 60px;
+      padding-top: 40%;
     }
 
     .buttons {
@@ -2794,40 +2234,206 @@ img.logo {
       align-self: center;
       flex: 1;
     }
+  }
 
-    .sprinkle_pic {
-      width: 90%;
+  /*Case Study Mobile Size*/
+  @media only screen and (max-width: 500px) {
+    .tab {
+      height: 40px;
     }
 
-    .header h2 {
+    .sprinkle_pic {
       display: none;
+    }
+
+    .mobile_solution {
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
+
+    #solution p {
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+
+    .facts {
+      flex-wrap: wrap;
+    }
+
+    .myrole, .deliverables, .tools {
+      margin-bottom: 20px;
+      width: 500px;
+      text-align: center;
+    }
+
+    .surveybutton {
+      width: 50%;
+      margin-left: 24%
     }
 
     .companies {
       flex-wrap: wrap;
-      justify-content: center;
+    }
+
+    .compbuttons {
+      width: 50%;
     }
 
     .personas {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .sarahmobile {
+      visibility: visible;
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+
+    #personas p {
+      margin: unset;
+    }
+
+    .viewpersona {
+      text-align: center;
+      font-family: Ubuntu, sans-serif;
+      color: #291720;
+      font-size: 2em;
+      font-weight: 600;
+      margin-top: 5px;
+      margin-bottom: 25px;
+    }
+
+    .viewpersona a:active {
+      text-transform: none;
+      color: #FE7F2D;
+    }
+
+    .persona {
+      display: none;
+    }
+
+    .madisonmobile {
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+
+    .user_stories {
+      width: 433px;
+      height: 396.9px;
+      display: block;
+      margin-top: -100px;
+      margin-bottom: -100px;
+    }
+
+    .user_flow {
+      width: 90%;
       flex-wrap: wrap;
     }
 
     .sitemaps {
       flex-wrap: wrap;
+      margin-right: 0 !important;
     }
 
-    .sitepic {
+    .sketch {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 60%;
+      margin-bottom: 20px;
+    }
+
+    .wireframe {
+      width: 90%;
+      justify-content: center;
+      margin-bottom: 25px;
+    }
+
+    .wireframes2 {
+      margin-bottom: -50px;
+    }
+
+    .sprinkle_wire {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
+
+    .usebutton {
+      width: 50%;
+    }
+
+    .paymentpages {
+      width: 80%;
       display: block;
       margin-left: auto;
       margin-right: auto;
     }
 
-    .wireframes {
-      justify-content: center;
+    .styleguide {
+      width: 313.02px;
+      height: 430px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .sprinklelogo {
+      width: 246px;
+      height: 126.56px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     .sidebar1 {
       flex-wrap: wrap;
+    }
+
+    #branding p {
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+
+    #preference h2 {
+      margin-bottom: -10px;
+    }
+
+    #preference p {
+      text-align: center;
+      font-size: 2.0em;
+    }
+
+    .menudeets {
+      font-size: 2.0em;
+    }
+
+    #preference .sidebarpic {
+      width: 70%;
+      margin-top: -50px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  /*Sizing for Tablets and Small Desktops*/
+  @media (min-width: 768px) and (max-width: 1024px) {
+    #preference .menus {
+      width: 70%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #preference .infoghipic {
+      width: 70%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     .menustyle {
@@ -2838,20 +2444,385 @@ img.logo {
       flex-wrap: wrap;
     }
 
-    .sprinkle_img2 {
+    .mockup {
+      width: 386px;
+      height: 243px;
+      margin-top: 25px;
+    }
+
+    #hifi p {
+      margin-left: 50px !important;
+      margin-right: 50px !important;
+    }
+
+    #testing2 .sprinkle_img2 {
       width: 90%;
       display: block;
       margin-left: auto;
       margin-right: auto;
     }
 
-    #hifi p {
+    #testing2 p {
+      margin-left: 50px !important;
+      margin-right: 50px !important;
+    }
+
+    #reflect h3 {
+      font-size: 2.5em;
+    }
+
+    .reflections p {
+      font-size: 2.0em;
       margin-left: 50px;
       margin-right: 50px;
     }
 
-    #testing2 p {
-      margin-left: 50px;
-      margin-right: 50px;
+    .tab {
+      display: none;
+    }
+
+    .header h2 {
+      text-align: center;
+      color: #FE7F2D;
+      margin: 50px;
+      line-height: 40px;
     }
   }
+
+  /*Case Study Large Desktop Screen*/
+  @media only screen and (min-width: 1025px) {
+    #case-header {
+      display: flex !important;
+    }
+
+    p.casestudy {
+      font-size: 2.8em;
+    }
+
+    .header h2 {
+      display: none;
+    }
+
+    #preference p {
+      font-size: 1.2em;
+      line-height: 40px;
+      margin: 50px;
+      text-align: center;
+    }
+
+    #casedetails .myrole h2 {
+      font-size: 3.2em;
+      text-align: center;
+    }
+
+    #casedetails .deliverables h2 {
+      font-size: 3.2em;
+    }
+
+    #casedetails .tools h2 {
+      font-size: 3.2em;
+    }
+
+    #casedetails .myrole h6 {
+      font-size: 2.4em;
+      text-align: center;
+    }
+
+    #casedetails .deliverables h6 {
+      font-size: 2.4em;
+    }
+
+    #casedetails .tools h6 {
+      font-size: 2.4em;
+    }
+
+    #problem p {
+      width: 894px;
+      text-align: center;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #solution p {
+      width: 894px;
+      text-align: center;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    p.caintro {
+      width: 894px;
+      text-align: center;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #personas p {
+      width: 894px;
+      text-align: center;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #stories p {
+      width: 894px;
+      text-align: center;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    p.flows1 {
+      width: 894px;
+      text-align: center;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .sitemaps p {
+      width: 500px;
+    }
+
+    #wire p {
+      width: 894px;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #usability1 p {
+      width: 894px;
+      text-align: center;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .sprinkle_img2 {
+      width: 90%;
+    }
+
+    #branding p {
+      width: 894px !important;
+      font-size: 2.4em !important;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #hifi p {
+      width: 894px !important;
+      font-size: 2.4em !important;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #testing2 p {
+      width: 894px;
+      text-align: center;
+      font-size: 2.4em !important;
+    }
+
+    .reflections p {
+      font-size: 2.4em !important;
+      width: 894px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+/*Sizing for Tablets and Small Desktops*/
+@media (min-width: 768px) and (max-width: 1024px) {
+
+/*Intro page*/
+.bigname h1 {
+  font-weight: normal;
+  line-height: 22px;
+  font-size: 6.4em;
+  margin-left: -100px;
+}
+
+.bigname {
+  font-size: 80%;
+  width: 300px;
+  flex-wrap: wrap;
+  margin-left: 35px;
+}
+
+.name {
+  flex-wrap: wrap;
+}
+
+.whoami {
+  font-size: 1.6em;
+  width: 250px;
+}
+
+.profile {
+  visibility: visible;
+  position: absolute;
+  width: 40%;
+  height: auto;
+  left: 400px;
+  top: 220px;
+  z-index: 1;
+}
+
+.diamond {
+  visibility: visible;
+  position: absolute;
+  width: 40%;
+  height: auto;
+  left: 429px;
+  top: 220px;
+}
+
+#recentcaseL h3 {
+  color: #FFFFFF;
+  width: 140px;
+  height: 22px;
+  font-family: Ubuntu, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3.6em;
+  line-height: 22px;
+  letter-spacing: -0.0141176em;
+  margin-left: 32%;
+  margin-bottom: 20px;
+}
+
+.sprinkledeets p {
+  width: 300px;
+  font-family: Didact Gothic, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.6em;
+  line-height: 167.23%;
+  color: #FFFFFF;
+  text-align: left;
+  margin-left: 25px;
+}
+
+/*About Me Page*/
+.aboutme h1 {
+  line-height: 22px;
+  font-size: 4.8em;
+}
+
+.aboutme h2 {
+  font-size: 3.6em;
+}
+
+.aboutme h3 {
+  font-size: 2.8em;
+}
+
+/*hoooooollllldddd*/
+/*Sprinkle Page*/
+#case-header {
+  flex: none;
+  display: block;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.light_button {
+  margin-top: 15px;
+}
+
+.casestudy p {
+  display: block;
+  height: 100px;
+  font-size: 1.8em;
+  text-overflow: clip;
+  overflow: visible;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 5%;
+}
+
+.mobile-prototype {
+  max-width: 100%;
+  width: 70%;
+  height: 70%;
+  display: block;
+  text-align: right;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  flex: 1;
+}
+
+.sprinkle_pic {
+  width: 90%;
+}
+
+.header h2 {
+  display: none;
+}
+
+.companies {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.personas {
+  flex-wrap: wrap;
+}
+
+.sitemaps {
+  flex-wrap: wrap;
+}
+
+.sitepic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wireframes {
+  justify-content: center;
+}
+
+.sidebar1 {
+  flex-wrap: wrap;
+}
+
+.menustyle {
+  flex-wrap: wrap;
+}
+
+.infohigh {
+  flex-wrap: wrap;
+}
+
+.sprinkle_img2 {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#hifi p {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#testing2 p {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+}
