@@ -2883,7 +2883,11 @@ width:50%;
   color: #820263;
 }
 
-.contactform .navbar{
-  position: fixed;
+@media only screen and (min-width:768px){
+.sticky {
+  position:sticky;
+  top:0;
+  background-color: #FFFFFF;
   z-index: 10;
+}
 }
