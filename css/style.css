@@ -58,12 +58,16 @@ color: #291720;
 }
 
 /*buttons*/
-button {
+.button {
 width: 170px;
-height: 50px;
+height: 150px;
 border-radius: 30px;
 background: #D90368;
 border-style: none;
+padding: 15px 32px;
+margin-left: 35%;
+margin-right: auto;
+text-decoration: none;
 }
 
 .pink_button {
@@ -75,13 +79,14 @@ color: #FFFFFF;
 display: block;
 margin-left: auto;
 margin-right: auto;
+text-decoration: none;
 }
 
 .button_words:hover {
 color: #D90368;
 }
 
-button:hover {
+.button:hover {
 width: 170px;
 height: 50px;
 border-radius: 30px;
