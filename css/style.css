@@ -3008,3 +3008,80 @@ width:50%;
   margin-top:20px;
   font-size: .5em;
 }
+
+.sections .button {
+width: 250px;
+height:50px;
+border-radius: 30px;
+background: #D90368;
+border-style: none;
+display: block;
+padding: 15px 25px;
+margin-left:auto;
+margin-right: auto;
+text-decoration: none;
+text-align: center;
+margin-bottom:25px;
+}
+
+.button:hover {
+  width: 250px;
+  height: 50px;
+  border-radius: 30px;
+  background: #F26103;
+  border-color: #D90368;
+  border-style: none;
+  }
+
+  #testing2 .button {
+    width: 250px;
+    height:50px;
+    border-radius: 30px;
+    background: #D90368;
+    border-style: none;
+    display: block;
+    padding: 15px 25px;
+    margin-left:auto;
+    margin-right: auto;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom:25px;
+  }
+
+#branding .button {
+  width: 250px;
+  height:50px;
+  border-radius: 30px;
+  background: #D90368;
+  border-style: none;
+  display: block;
+  padding: 15px 25px;
+  margin-left:auto;
+  margin-right: auto;
+  text-decoration: none;
+  text-align: center;
+  margin-bottom:25px;
+}
+.casestudy .button{
+  background-color: #FF03FF;
+}
+
+.casestudy .button:hover {
+  width: 250px;
+  height: 50px;
+  border-radius: 30px;
+  background: #F26103;
+  border-color: #D90368;
+  border-style: none;
+  }
+.casestudy .button_words {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #FFFFFF;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+}
