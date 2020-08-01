@@ -710,6 +710,48 @@ border-color: #D90368;
 border-style: none;
 }
 
+.strength {
+  font-family: Ubuntu, sans-serif;
+  font-size: 2.0em;
+  font-weight: 800;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-flow: row;
+  align-content: flex-start;
+}
+
+.weaknesses {
+  font-family: Ubuntu, sans-serif;
+  font-size:2.0em;
+  font-weight: 800;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:25px;
+}
+
+.opps {
+  font-family: Ubuntu, sans-serif;
+  font-size:2.0em;
+  font-weight: 800;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:25px;
+}
+ ul {
+   font-family: Didact Gothic, sans-serif;
+   font-size: 2em;
+   line-height: 40px;
+   text-align: center;
+   margin-left:auto;
+   margin-right:auto;
+   width:300px;
+ }
+
+.bakediarysect {
+  width:500px;
+}
+
 /*--User Personas--*/
 .personas {
 display: flex;
@@ -872,7 +914,7 @@ margin-bottom: 10px;
 .userstory {
 font-family: Ubuntu, sans-serif;
 font-size: 2em;
-max-width: 500px;
+width: 100%;
 margin-left: auto;
 margin-right: auto;
 color: #afafaf;
@@ -911,6 +953,11 @@ flex-direction: column;
 .sitepic {
 display: flex;
 flex-direction: column;
+}
+
+.sitemap {
+  max-width:90%;
+  margin-bottom:25px;
 }
 
 #flows .button_words {
@@ -1271,7 +1318,7 @@ img.logo {
   left: 50%;
   transform: translatex(-50%);
   width: 15%;
-  margin-top: -10px;
+  margin-top: 10px;
 }
 
 label {
@@ -1620,6 +1667,10 @@ label {
   margin-right: 50px;
 }
 
+.userstory {
+  width:70%;
+}
+
 .user_stories {
   width: 433px;
   height: 396.9px;
@@ -1725,6 +1776,7 @@ label {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  height: unset;
 }
 
 #preference .infoghipic {
@@ -1732,6 +1784,7 @@ label {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  height:unset;
 }
 
 .menustyle {
@@ -1783,7 +1836,7 @@ label {
   text-align: center;
   color: #FE7F2D;
   margin: 50px;
-  line-height: 40px;
+  line-height: 45px;
 }
 }
 
@@ -2175,6 +2228,7 @@ p.flows1 {
   @media only screen and (max-width: 500px) {
     .project .navbar {
       background: #860263;
+      margin-top:-10px;
     }
 
     .project .menu a {
@@ -2283,9 +2337,31 @@ p.flows1 {
     }
 
     .sarahmobile {
-      visibility: visible;
+      display: block;
       margin-left: 50px;
       margin-right: 50px;
+      margin-top:25px;
+    }
+
+    .sarainfo {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
+
+    .madisonmobile {
+      margin-top: 50px;
+      display: block;
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+
+    .madisoninfo {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
     }
 
     #personas p {
@@ -2298,11 +2374,14 @@ p.flows1 {
       color: #291720;
       font-size: 2em;
       font-weight: 600;
-      margin-top: 5px;
+      margin-top: 10px;
       margin-bottom: 25px;
     }
-
-    .viewpersona a:active {
+a.viewpersona {
+  line-height: 40px;
+  color: #820263;
+}
+    a.viewpersona:hover {
       text-transform: none;
       color: #FE7F2D;
     }
@@ -2334,11 +2413,19 @@ p.flows1 {
       margin-right: 0 !important;
     }
 
+    .sitemap {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom:25px;
+      width:90%;
+    }
+
     .sketch {
       display: block;
       margin-left: auto;
       margin-right: auto;
-      width: 60%;
+      width: 75%;
       margin-bottom: 20px;
     }
 
@@ -2890,4 +2977,9 @@ width:50%;
   background-color: #FFFFFF;
   z-index: 10;
 }
+}
+
+.hypemeup p{
+  margin-top:20px;
+  font-size: .5em;
 }
