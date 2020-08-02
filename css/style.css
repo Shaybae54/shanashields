@@ -2934,7 +2934,7 @@ input, textarea {
   height: 50px;
   border: 2px solid #820263;
   padding: 8px 16px 8px 16px;
-  font-size: 1em;
+  font-size: .75em;
 }
 
 textarea {
